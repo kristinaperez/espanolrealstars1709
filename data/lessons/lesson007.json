@@ -1,0 +1,23 @@
+{
+  "lesson": 7,
+  "slug": "fianza-y-gastos",
+  "title": "La fianza y los gastos",
+  "subtitle": "Депозит и коммунальные платежи",
+  "category": "housing",
+  "milestone": "housing",
+  "difficulty": "A2",
+  "tags": ["housing", "money", "bills"],
+  "summary": "Fianza, comunidad, luz, agua, internet — как говорить о деньгах, связанных с квартирой.",
+  "situation": "Передача денег и оплата коммунальных",
+  "authorComment": "Это последний бесплатный урок. Дальше — вся Испания: банк, врач, документы, работа. Фразы здесь нужны буквально в первую неделю.",
+  "phrases": [
+    { "spanish": "La fianza son dos meses", "translation": "Депозит — два месяца", "example": "La fianza son dos meses de alquiler.", "exampleTranslation": "Депозит — два месяца аренды.", "notes": "По закону обычно один месяц, но часто просят два.", "difficulty": "A2", "tags": ["money", "housing"] },
+    { "spanish": "¿Cuándo me devuelven la fianza?", "translation": "Когда мне вернут депозит?", "example": "¿Cuándo me devuelven la fianza al salir?", "exampleTranslation": "Когда мне вернут депозит при выезде?", "notes": "Devolver — возвращать. Важный вопрос при съезде.", "difficulty": "B1", "tags": ["money"] },
+    { "spanish": "Pagar la comunidad", "translation": "Платить за обслуживание дома", "example": "El pago de la comunidad va aparte.", "exampleTranslation": "Плата за comunidad идёт отдельно.", "notes": "Comunidad — общие расходы дома: лифт, консьерж, уборка.", "difficulty": "B1", "tags": ["bills"] },
+    { "spanish": "Me han subido la luz", "translation": "Мне подняли цену за электричество", "example": "Este año me han subido la luz.", "exampleTranslation": "В этом году мне подняли тариф на свет.", "notes": "«Me han subido» — мне подняли. Очень испанская конструкция.", "difficulty": "B1", "tags": ["bills"] },
+    { "spanish": "Tengo que pagar el recibo", "translation": "Мне нужно оплатить счёт", "example": "Tengo que pagar el recibo del agua.", "exampleTranslation": "Мне нужно оплатить счёт за воду.", "notes": "El recibo — счёт, квитанция. También «el recibo del alquiler».", "difficulty": "A2", "tags": ["bills", "bank"] },
+    { "spanish": "El contador está en el rellano", "translation": "Счётчик на лестничной площадке", "example": "El contador de la luz está en el rellano.", "exampleTranslation": "Электросчётчик на лестничной площадке.", "notes": "Rellano — лестничная площадка. Слово, которое не учат в школах.", "difficulty": "B1", "tags": ["housing"] },
+    { "spanish": "Se ha ido el agua", "translation": "Отключили воду", "example": "Se ha ido el agua en todo el edificio.", "exampleTranslation": "Во всём доме отключили воду.", "notes": "«Se ha ido» — буквально «ушла». Так говорят о любых отключениях.", "difficulty": "B1", "tags": ["housing", "problems"] },
+    { "spanish": "Voy a poner el contrato a mi nombre", "translation": "Я оформлю договор на своё имя", "example": "Voy a poner la luz a mi nombre.", "exampleTranslation": "Я оформлю электричество на своё имя.", "notes": "«A mi nombre» — на моё имя. Нужно при заселении.", "difficulty": "B1", "tags": ["housing", "bills"] }
+  ]
+}

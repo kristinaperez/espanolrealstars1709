@@ -1,0 +1,23 @@
+{
+  "lesson": 4,
+  "slug": "el-piso",
+  "title": "El piso",
+  "subtitle": "Квартира: базовые слова и вопросы",
+  "category": "housing",
+  "milestone": "housing",
+  "difficulty": "A1",
+  "tags": ["housing", "vocabulary", "numbers"],
+  "summary": "Как говорить о квартире: сколько комнат, какая мебель, что входит в цену.",
+  "situation": "Осмотр квартиры с агентом или хозяином",
+  "authorComment": "В Испании считают не комнаты, а спальни: «un piso de dos dormitorios». Плюс всегда уточняйте «gastos incluidos».",
+  "phrases": [
+    { "spanish": "Veo el anuncio del piso", "translation": "Я видел объявление о квартире", "example": "Buenos días, veo el anuncio del piso. ¿Sigue disponible?", "exampleTranslation": "Добрый день, я видел объявление о квартире. Она ещё свободна?", "notes": "«Sigue disponible» — всё ещё доступна. Универсальная формула для любого объявления.", "difficulty": "A2", "tags": ["housing"] },
+    { "spanish": "¿Cuántos dormitorios tiene?", "translation": "Сколько в ней спален?", "example": "¿Cuántos dormitorios tiene el piso?", "exampleTranslation": "Сколько спален в квартире?", "notes": "Dormitorio = спальня. Salón = гостиная.", "difficulty": "A1", "tags": ["housing", "numbers"] },
+    { "spanish": "Está amueblado", "translation": "Она с мебелью", "example": "¿Está amueblado o vacío?", "exampleTranslation": "С мебелью или пустая?", "notes": "Amueblado — с мебелью. Vacío — пустая.", "difficulty": "A2", "tags": ["housing"] },
+    { "spanish": "¿Los gastos están incluidos?", "translation": "Коммунальные расходы включены?", "example": "¿Los gastos están incluidos en el precio?", "exampleTranslation": "Коммунальные включены в цену?", "notes": "Gastos = вода, свет, интернет, comunidad. Обязательно уточняйте.", "difficulty": "A2", "tags": ["housing", "money"] },
+    { "spanish": "Es un tercer piso sin ascensor", "translation": "Это третий этаж без лифта", "example": "Es un tercer piso sin ascensor, ¿no?", "exampleTranslation": "Это третий этаж без лифта, да?", "notes": "«Sin ascensor» — важный момент в старых домах Испании.", "difficulty": "A1", "tags": ["housing"] },
+    { "spanish": "Tiene mucha luz", "translation": "В ней много света", "example": "El salón tiene mucha luz.", "exampleTranslation": "В гостиной много света.", "notes": "Типичная фраза агентов. Обратная: «es un piso oscuro» — тёмная квартира.", "difficulty": "A2", "tags": ["housing", "description"] },
+    { "spanish": "Está bien comunicado", "translation": "Рядом хорошая транспортная развязка", "example": "La zona está bien comunicada con el centro.", "exampleTranslation": "Район хорошо связан с центром.", "notes": "Стандартная фраза в объявлениях: метро, автобус, cercanías.", "difficulty": "B1", "tags": ["housing", "transport"] },
+    { "spanish": "¿Puedo verlo hoy?", "translation": "Могу я посмотреть её сегодня?", "example": "¿Puedo verlo hoy por la tarde?", "exampleTranslation": "Могу посмотреть сегодня вечером?", "notes": "Квартиру называют «lo» (el piso → lo).", "difficulty": "A1", "tags": ["housing", "making plans"] }
+  ]
+}

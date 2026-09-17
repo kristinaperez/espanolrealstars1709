@@ -1,0 +1,23 @@
+{
+  "lesson": 12,
+  "slug": "en-la-mesa",
+  "title": "En la mesa",
+  "subtitle": "Ресторан: столик, меню, заказ блюд",
+  "category": "restaurant",
+  "milestone": "coffee",
+  "difficulty": "A2",
+  "tags": ["restaurant", "ordering", "food"],
+  "summary": "Забронировать столик, понять официанта, заказать блюда и спросить рекомендацию.",
+  "situation": "Ужин в ресторане с друзьями",
+  "authorComment": "Официант спросит: «¿Qué van a tomar?» и «¿Ya saben lo que quieren?». Это одни и тех же фразы каждый раз — учите их как формулы.",
+  "phrases": [
+    { "spanish": "Una mesa para dos", "translation": "Столик на двоих", "example": "Buenas noches, una mesa para dos, por favor.", "exampleTranslation": "Добрый вечер, столик на двоих, пожалуйста.", "notes": "Para + число: para dos, para cuatro.", "difficulty": "A1", "tags": ["restaurant"] },
+    { "spanish": "Tengo una reserva", "translation": "У меня бронь", "example": "Tengo una reserva a nombre de Irina.", "exampleTranslation": "У меня бронь на имя Ирина.", "notes": "«A nombre de» — на имя. Работает и в отеле, и в банке.", "difficulty": "A2", "tags": ["restaurant"] },
+    { "spanish": "¿Nos trae la carta?", "translation": "Принесёте нам меню?", "example": "¿Nos trae la carta, por favor?", "exampleTranslation": "Принесите меню, пожалуйста.", "notes": "La carta — меню. El menú — комплексный обед.", "difficulty": "A2", "tags": ["ordering"] },
+    { "spanish": "¿Qué nos recomienda?", "translation": "Что вы посоветуете?", "example": "¿Qué nos recomienda hoy?", "exampleTranslation": "Что сегодня посоветуете?", "notes": "Recomendar — рекомендовать. Любимая фраза в испанском ресторане.", "difficulty": "A2", "tags": ["restaurant"] },
+    { "spanish": "De primero, una ensalada", "translation": "На первое — салат", "example": "De primero una ensalada y de segundo el pollo.", "exampleTranslation": "На первое салат, на второе курицу.", "notes": "De primero / de segundo / de postre — структура заказа.", "difficulty": "A2", "tags": ["ordering", "food"] },
+    { "spanish": "Sin cebolla, por favor", "translation": "Без лука, пожалуйста", "example": "¿Me lo prepara sin cebolla?", "exampleTranslation": "Можете приготовить без лука?", "notes": "Cebolla — лук, ajo — чеснок, pimiento — перец.", "difficulty": "A1", "tags": ["food"] },
+    { "spanish": "Está buenísimo", "translation": "Очень вкусно (усиленно)", "example": "El postre está buenísimo.", "exampleTranslation": "Десерт просто отличный.", "notes": "Исмóгimo = muy bueno. Так говорят о еде с энтузиазмом.", "difficulty": "A2", "tags": ["restaurant"] },
+    { "spanish": "¿Nos trae otra ración?", "translation": "Принесёте ещё одну порцию?", "example": "¿Nos trae otra ración de patatas?", "exampleTranslation": "Принесите ещё порцию картошки?", "notes": "Ración — порция на всех, испанский формат еды в компании.", "difficulty": "B1", "tags": ["food"] }
+  ]
+}

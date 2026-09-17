@@ -1,0 +1,23 @@
+{
+  "lesson": 45,
+  "slug": "sentirme-en-casa",
+  "title": "Sentirme en casa",
+  "subtitle": "Финальный урок: жизнь в Испании",
+  "category": "daily-life",
+  "milestone": "belonging",
+  "difficulty": "B2",
+  "tags": ["daily life", "identity", "reflection"],
+  "summary": "Фразы, которыми вы говорите о своей жизни в Испании. Финальный урок курса.",
+  "situation": "Разговор о себе и своей новой жизни",
+  "authorComment": "Последний урок — про то, что вы уже можете всё: жить, дружить, работать, отстаивать себя. Вы говорили, слушали, ошибались — и это нормально.",
+  "phrases": [
+    { "spanish": "Me siento en casa", "translation": "Я чувствую себя как дома", "example": "Después de dos años, me siento en casa.", "exampleTranslation": "Через два года я чувствую себя дома.", "notes": "Sentirse — чувствовать себя. Reflexivo, как «me llamo».", "difficulty": "B1", "tags": ["identity"] },
+    { "spanish": "Ya me apaño", "translation": "Я уже справляюсь сам", "example": "No te preocupes, ya me apaño solo.", "exampleTranslation": "Не волнуйся, я уже справляюсь сам.", "notes": "Apañarse — выкручиваться, справляться. Очень испанское слово.", "difficulty": "B2", "tags": ["idioms"] },
+    { "spanish": "Me he acostumbrado", "translation": "Я привык", "example": "Me he acostumbrado a la siesta.", "exampleTranslation": "Я привык к сиесте.", "notes": "Acostumbrarse a — привыкать к. С предлогом a.", "difficulty": "B1", "tags": ["identity"] },
+    { "spanish": "Aquí tengo mi vida", "translation": "Здесь у меня моя жизнь", "example": "Aquí tengo mi vida, mi trabajo y mis amigos.", "exampleTranslation": "Здесь у меня жизнь, работа и друзья.", "notes": "Простая фраза, за которой стоит весь путь адаптации.", "difficulty": "A2", "tags": ["identity"] },
+    { "spanish": "Todavía me falta mucho", "translation": "Мне ещё многого не хватает", "example": "Todavía me falta mucho por aprender.", "exampleTranslation": "Мне ещё очень многому нужно учиться.", "notes": "Faltar — не хватать. Честно и мотивирующе.", "difficulty": "B1", "tags": ["idioms"] },
+    { "spanish": "Vale la pena", "translation": "Это того стоит", "example": "Cambiar de país vale la pena.", "exampleTranslation": "Смена страны того стоит.", "notes": "Valer la pena — стоить усилий. Главная фраза курса.", "difficulty": "B2", "tags": ["idioms"] },
+    { "spanish": "Estoy orgulloso de mí", "translation": "Я горжусь собой", "example": "Estoy orgulloso de mí mismo.", "exampleTranslation": "Я горжусь собой.", "notes": "Orgulloso de — гордый чего. Род: orgullosa для женщины.", "difficulty": "B1", "tags": ["identity"] },
+    { "spanish": "Seguiré aprendiendo", "translation": "Я продолжу учиться", "example": "Seguiré aprendiendo cada día.", "exampleTranslation": "Я буду учиться каждый день.", "notes": "Seguir + gerundio — продолжать делать. Отличный финал.", "difficulty": "B2", "tags": ["identity"] }
+  ]
+}

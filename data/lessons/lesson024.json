@@ -1,0 +1,23 @@
+{
+  "lesson": 24,
+  "slug": "tarjeta-sanitaria",
+  "title": "La tarjeta sanitaria",
+  "subtitle": "Медицинская карта и система",
+  "category": "health",
+  "milestone": "doctor",
+  "difficulty": "B1",
+  "tags": ["health", "government", "documents"],
+  "summary": "Как получить tarjeta sanitaria, что такое SIP, номер карты и как сказать свой номер.",
+  "situation": "Оформление медицинской карты в администрации",
+  "authorComment": "Здесь испанский становится бюрократическим, но фразы повторяются из урока в урок: solicitar, rellenar, entregar, esperar.",
+  "phrases": [
+    { "spanish": "Quiero solicitar la tarjeta sanitaria", "translation": "Я хочу оформить медицинскую карту", "example": "Quiero solicitar la tarjeta sanitaria, ¿qué necesito?", "exampleTranslation": "Я хочу оформить медкарту, что нужно?", "notes": "Solicitar — запросить, оформить. Главное бюрократическое слово.", "difficulty": "B1", "tags": ["government", "documents"] },
+    { "spanish": "¿Qué documentos tengo que traer?", "translation": "Какие документы мне нужно принести?", "example": "¿Qué documentos tengo que traer mañana?", "exampleTranslation": "Какие документы принести завтра?", "notes": "Traer — приносить. «Tengo que + inf» — мне нужно.", "difficulty": "A2", "tags": ["documents"] },
+    { "spanish": "Aquí tiene mi empadronamiento", "translation": "Вот моя справка о прописке", "example": "Aquí tiene mi empadronamiento y el pasaporte.", "exampleTranslation": "Вот моя прописка и паспорт.", "notes": "«Aquí tiene» — вот, держите. Фраза для любой очереди.", "difficulty": "A2", "tags": ["documents", "politeness"] },
+    { "spanish": "¿Cuánto tarda en llegar?", "translation": "Сколько она идёт?", "example": "¿Cuánto tarda en llegar la tarjeta?", "exampleTranslation": "Через сколько придёт карта?", "notes": "Tardar en + inf — «занимать времени, чтобы сделать».", "difficulty": "B1", "tags": ["time"] },
+    { "spanish": "Me han dado un número de tarjeta", "translation": "Мне выдали номер карты", "example": "Me han dado un número de tarjeta sanitaria.", "exampleTranslation": "Мне дали номер медицинской карты.", "notes": "«Me han dado» — мне дали. Стандарт для любых инстанций.", "difficulty": "B1", "tags": ["health"] },
+    { "spanish": "Tengo que rellenar este formulario", "translation": "Мне нужно заполнить эту форму", "example": "¿Tengo que rellenar este formulario otra vez?", "exampleTranslation": "Мне снова заполнять эту форму?", "notes": "Rellenar — заполнять. Formulario — анкета, форма.", "difficulty": "B1", "tags": ["documents"] },
+    { "spanish": "¿Dónde está mi centro de salud?", "translation": "Где мой медицинский центр?", "example": "¿Me puede decir dónde está mi centro de salud?", "exampleTranslation": "Подскажите, где мой медцентр?", "notes": "Центр приписывается по прописке — это важно знать.", "difficulty": "A2", "tags": ["health"] },
+    { "spanish": "Gracias por su paciencia", "translation": "Спасибо за терпение", "example": "Gracias por su paciencia, buenas tardes.", "exampleTranslation": "Спасибо за терпение, доброго дня.", "notes": "Фраза, которая облегчает любую бюрократию.", "difficulty": "B1", "tags": ["politeness"] }
+  ]
+}

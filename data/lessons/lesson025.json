@@ -1,0 +1,23 @@
+{
+  "lesson": 25,
+  "slug": "abrir-una-cuenta",
+  "title": "Abrir una cuenta",
+  "subtitle": "Открыть счёт в банке",
+  "category": "bank",
+  "milestone": "bank",
+  "difficulty": "B1",
+  "tags": ["bank", "documents", "money"],
+  "summary": "Какой счёт просить, что спросят у иностранца и как понять условия.",
+  "situation": "Первый визит в испанский банк",
+  "authorComment": "Просите «cuenta para no residentes», если у вас ещё нет NIE. Сотрудник спросит: «¿Trabaja en España?» — готовьте ответ.",
+  "phrases": [
+    { "spanish": "Quiero abrir una cuenta", "translation": "Я хочу открыть счёт", "example": "Buenos días, quiero abrir una cuenta bancaria.", "exampleTranslation": "Добрый день, я хочу открыть банковский счёт.", "notes": "Abrir una cuenta — открыть счёт. Cerrar — закрыть.", "difficulty": "A2", "tags": ["bank"] },
+    { "spanish": "Soy no residente", "translation": "Я нерезидент", "example": "Soy no residente, ¿puedo abrir cuenta?", "exampleTranslation": "Я нерезидент, могу открыть счёт?", "notes": "Ключевое слово для первых месяцев в Испании.", "difficulty": "B1", "tags": ["bank", "documents"] },
+    { "spanish": "¿Hay comisiones?", "translation": "Есть комиссии?", "example": "¿Hay comisiones de mantenimiento?", "exampleTranslation": "Есть комиссия за обслуживание?", "notes": "Comisión — комиссия. Mantenimiento — обслуживание счёта.", "difficulty": "B1", "tags": ["money"] },
+    { "spanish": "¿Qué documentos necesita?", "translation": "Какие документы вам нужны?", "example": "Para abrir la cuenta, ¿qué documentos necesita?", "exampleTranslation": "Чтобы открыть счёт, какие документы нужны?", "notes": "Готовая формула для любого учреждения.", "difficulty": "A2", "tags": ["documents"] },
+    { "spanish": "Necesito el NIE para trabajar", "translation": "Мне нужен NIE для работы", "example": "Necesito el NIE para trabajar y cobrar.", "exampleTranslation": "Мне нужен NIE, чтобы работать и получать зарплату.", "notes": "Cobrar — получать деньги, зарплату.", "difficulty": "B1", "tags": ["government", "work"] },
+    { "spanish": "Quiero una cuenta sin condiciones", "translation": "Я хочу счёт без условий", "example": "Busco una cuenta sin condiciones, sin nómina.", "exampleTranslation": "Ищу счёт без условий, без справки о зарплате.", "notes": "Sin nómina — без подтверждения зарплаты. Частое условие банков.", "difficulty": "B1", "tags": ["bank", "money"] },
+    { "spanish": "¿Me activan la banca online?", "translation": "Мне активируют онлайн-банк?", "example": "¿Me activan la banca online y la app?", "exampleTranslation": "Активируете онлайн-банкинг и приложение?", "notes": "Banca online / banca electrónica — интернет-банк.", "difficulty": "B1", "tags": ["bank"] },
+    { "spanish": "¿Cuándo estará lista?", "translation": "Когда будет готово?", "example": "¿Cuándo estará lista la tarjeta?", "exampleTranslation": "Когда карта будет готова?", "notes": "Estar listo — быть готовым. Так спрашивают о любых документах.", "difficulty": "A2", "tags": ["bank", "time"] }
+  ]
+}

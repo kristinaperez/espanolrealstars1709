@@ -1,0 +1,23 @@
+{
+  "lesson": 40,
+  "slug": "invitar-y-excusarse",
+  "title": "Invitar y excusarse",
+  "subtitle": "Приглашения и вежливые отказы",
+  "category": "social",
+  "milestone": "friends",
+  "difficulty": "A2",
+  "tags": ["social", "politeness", "invitations"],
+  "summary": "Как пригласить, вежливо отказаться и перенести, не обидев человека.",
+  "situation": "Приглашение на ужин и вежливый отказ",
+  "authorComment": "В Испании отказ не считается грубостью, если он с «lo siento» и предложением другого дня. Учитесь отказывать красиво.",
+  "phrases": [
+    { "spanish": "¿Te apetece un café?", "translation": "Хочешь кофе? Есть желание?", "example": "¿Te apetece un café ahora?", "exampleTranslation": "Не хочешь кофе сейчас?", "notes": "Apetecer — хотеть (с удовольствием). Тёплая и очень испанская фраза.", "difficulty": "A2", "tags": ["invitations"] },
+    { "spanish": "Me encantaría", "translation": "С удовольствием бы", "example": "Me encantaría, ¿a qué hora?", "exampleTranslation": "С удовольствием, во сколько?", "notes": "Encantar — очень нравиться. Условная форма — вежливое согласие.", "difficulty": "B1", "tags": ["invitations"] },
+    { "spanish": "Lo siento, no puedo", "translation": "Извини, не могу", "example": "Lo siento, no puedo hoy.", "exampleTranslation": "Извини, сегодня не смогу.", "notes": "Три слова, которые нужны каждому. Дальше — причина.", "difficulty": "A1", "tags": ["politeness"] },
+    { "spanish": "Otro día, si te parece", "translation": "В другой день, если ты не против", "example": "Otro día, si te parece, ¿te va bien?", "exampleTranslation": "Давай в другой день, если удобно?", "notes": "«Si te parece» — если ты не против. Смягчает любой отказ.", "difficulty": "B1", "tags": ["invitations"] },
+    { "spanish": "Tengo un lío tremendo", "translation": "У меня жуткий завал", "example": "Perdona, tengo un lío tremendo esta semana.", "exampleTranslation": "Извини, у меня жуткий завал на этой неделе.", "notes": "Lío — беспорядок, завал. Слово, которое испанцы обожают.", "difficulty": "B1", "tags": ["idioms"] },
+    { "spanish": "Te aviso", "translation": "Я тебе скажу / напишу", "example": "No sé aún, te aviso por la tarde.", "exampleTranslation": "Пока не знаю, напишу вечером.", "notes": "Avisar — предупреждать, сообщать. Используйте вместо «я скажу».", "difficulty": "A2", "tags": ["social"] },
+    { "spanish": "Sin compromiso", "translation": "Без обязательств", "example": "Ven si quieres, sin compromiso.", "exampleTranslation": "Приходи, если хочешь, без обязательств.", "notes": "Фраза-приглашение, снимающая давление.", "difficulty": "B1", "tags": ["invitations"] },
+    { "spanish": "Gracias por invitarme", "translation": "Спасибо, что пригласили", "example": "Gracias por invitarme, fue un placer.", "exampleTranslation": "Спасибо за приглашение, было приятно.", "notes": "Por + infinitivo — за то, что... Формула благодарности.", "difficulty": "A2", "tags": ["politeness"] }
+  ]
+}

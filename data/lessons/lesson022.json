@@ -1,0 +1,23 @@
+{
+  "lesson": 22,
+  "slug": "en-la-consulta",
+  "title": "En la consulta",
+  "subtitle": "У врача: описать симптомы",
+  "category": "health",
+  "milestone": "doctor",
+  "difficulty": "A2",
+  "tags": ["health", "body", "symptoms"],
+  "summary": "Сказать, где болит, как давно и что вы уже принимали.",
+  "situation": "Приём у врача в centro de salud",
+  "authorComment": "Испанский о боли устроен просто: «Me duele» + часть тела. Запомните это — и вы сможете описать почти любой симптом.",
+  "phrases": [
+    { "spanish": "Me duele la cabeza", "translation": "У меня болит голова", "example": "Desde ayer me duele la cabeza.", "exampleTranslation": "Со вчера болит голова.", "notes": "Me duele — мне болит. Множественное: me duelen los ojos.", "difficulty": "A1", "tags": ["symptoms", "body"] },
+    { "spanish": "Me duele la garganta", "translation": "У меня болит горло", "example": "Me duele la garganta y tengo tos.", "exampleTranslation": "Болит горло и есть кашель.", "notes": "Garganta — горло, tos — кашель, fiebre — температура.", "difficulty": "A1", "tags": ["symptoms", "body"] },
+    { "spanish": "Tengo fiebre desde ayer", "translation": "У меня температура со вчера", "example": "Tengo fiebre desde ayer por la noche.", "exampleTranslation": "Температура со вчерашнего вечера.", "notes": "Desde + время — с какого момента. Простой и нужный паттерн.", "difficulty": "A1", "tags": ["symptoms", "time"] },
+    { "spanish": "Me he caído", "translation": "Я упал(а)", "example": "Me he caído por las escaleras.", "exampleTranslation": "Я упал с лестницы.", "notes": "Caerse — падать. Врач обязательно спросит: «¿Cómo pasó?».", "difficulty": "A2", "tags": ["symptoms"] },
+    { "spanish": "No puedo dormir", "translation": "Я не могу спать", "example": "No puedo dormir por el dolor.", "exampleTranslation": "Не могу спать из-за боли.", "notes": "El dolor — боль. Doloroso — болезненный.", "difficulty": "A1", "tags": ["symptoms"] },
+    { "spanish": "Soy alérgico a la penicilina", "translation": "У меня аллергия на пенициллин", "example": "Soy alérgico a la penicilina, cuidado.", "exampleTranslation": "У меня аллергия на пенициллин, будьте осторожны.", "notes": "Alérgico/a — зависит от вашего пола. Критически важная фраза.", "difficulty": "B1", "tags": ["health"] },
+    { "spanish": "¿Es algo grave?", "translation": "Это что-то серьёзное?", "example": "Doctor, ¿es algo grave?", "exampleTranslation": "Доктор, это серьёзно?", "notes": "Grave — серьёзный. Leve — лёгкий.", "difficulty": "A2", "tags": ["health"] },
+    { "spanish": "¿Necesito un análisis?", "translation": "Мне нужен анализ?", "example": "¿Necesito un análisis de sangre?", "exampleTranslation": "Мне нужен анализ крови?", "notes": "Análisis de sangre — анализ крови. Radiografía — рентген.", "difficulty": "B1", "tags": ["health"] }
+  ]
+}

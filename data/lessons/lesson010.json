@@ -1,0 +1,23 @@
+{
+  "lesson": 10,
+  "slug": "para-llevar",
+  "title": "Para llevar",
+  "subtitle": "Навынос, с собой, здесь или с собой",
+  "category": "restaurant",
+  "milestone": "coffee",
+  "difficulty": "A1",
+  "tags": ["restaurant", "ordering", "food"],
+  "summary": "Как заказать еду с собой, попросить разогреть, взять салфетку и вилку.",
+  "situation": "Кафе на бегу и takeaway у дома",
+  "authorComment": "В Испании «para llevar» слышно в любом баре. Ответ бармена: «¿Para aquí o para llevar?» — запомните оба варианта.",
+  "phrases": [
+    { "spanish": "Para llevar, por favor", "translation": "С собой, пожалуйста", "example": "¿Para aquí o para llevar? — Para llevar, por favor.", "exampleTranslation": "Здесь или с собой? — С собой, пожалуйста.", "notes": "Самый короткий заказ в испанском языке.", "difficulty": "A1", "tags": ["ordering"] },
+    { "spanish": "Lo como aquí", "translation": "Я поем здесь", "example": "No, lo como aquí, gracias.", "exampleTranslation": "Нет, я поем здесь, спасибо.", "notes": "Comer — есть (еду). Beber — пить.", "difficulty": "A1", "tags": ["restaurant"] },
+    { "spanish": "¿Me lo puede calentar?", "translation": "Можете разогреть?", "example": "¿Me lo puede calentar un poco?", "exampleTranslation": "Можете немного разогреть?", "notes": "Calentar — греть. Так говорят о бутерброде или empanada.", "difficulty": "A2", "tags": ["ordering"] },
+    { "spanish": "¿Me da una servilleta?", "translation": "Дадите салфетку?", "example": "¿Me da una servilleta y un tenedor?", "exampleTranslation": "Дадите салфетку и вилку?", "notes": "Servilleta — салфетка. Tenedor — вилка, cuchara — ложка.", "difficulty": "A1", "tags": ["restaurant"] },
+    { "spanish": "Un bocadillo de tortilla", "translation": "Бокадильо с тортильей", "example": "Un bocadillo de tortilla, para llevar.", "exampleTranslation": "Бутерброд с испанским омлетом, с собой.", "notes": "Tortilla de patatas — картофельный омлет, не мексиканская лепёшка.", "difficulty": "A1", "tags": ["food"] },
+    { "spanish": "¿Está recién hecho?", "translation": "Это свежесделанное?", "example": "¿El croissant está recién hecho?", "exampleTranslation": "Круассан свежий?", "notes": "Recién hecho — только что сделанный. Полезно в пекарии.", "difficulty": "B1", "tags": ["food"] },
+    { "spanish": "Sin gluten, por favor", "translation": "Без глютена, пожалуйста", "example": "¿Tiene algo sin gluten?", "exampleTranslation": "У вас есть что-то без глютена?", "notes": "«¿Tiene algo sin...?» — формула для любой диеты или аллергии.", "difficulty": "A2", "tags": ["food", "health"] },
+    { "spanish": "Gracias, hasta luego", "translation": "Спасибо, до встречи", "example": "Gracias, hasta luego. Buen día.", "exampleTranslation": "Спасибо, пока. Хорошего дня.", "notes": "В Испании уходят не молча. Пара слов — и вас запомнят.", "difficulty": "A1", "tags": ["greetings"] }
+  ]
+}

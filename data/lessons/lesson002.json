@@ -1,0 +1,23 @@
+{
+  "lesson": 2,
+  "slug": "que-tal",
+  "title": "¿Qué tal?",
+  "subtitle": "Приветствия и первый контакт",
+  "category": "daily-life",
+  "milestone": "first-days",
+  "difficulty": "A1",
+  "tags": ["greetings", "daily life", "small talk"],
+  "summary": "Как поздороваться, спросить о делах и вежливо завершить разговор — так, как это делают в Испании.",
+  "situation": "Утро в баре, встреча с соседом на улице",
+  "authorComment": "В Испании важно поздороваться, даже если вы ничего больше не скажете. «Buenos días» открывает любую дверь.",
+  "phrases": [
+    { "spanish": "¿Qué tal?", "translation": "Как дела?", "example": "¿Qué tal? ¿Todo bien?", "exampleTranslation": "Как дела? Всё хорошо?", "notes": "Ответ почти всегда: «Bien, ¿y tú?».", "difficulty": "A1", "tags": ["greetings"] },
+    { "spanish": "¿Todo bien?", "translation": "Всё хорошо? Всё ок?", "example": "¡Hola! ¿Todo bien por aquí?", "exampleTranslation": "Привет! Тут всё спокойно?", "notes": "Неформально, между соседями и знакомыми.", "difficulty": "A1", "tags": ["small talk"] },
+    { "spanish": "Buenos días", "translation": "Добрый день (до обеда)", "example": "Buenos días, ¿está abierto?", "exampleTranslation": "Добрый день, вы открыты?", "notes": "Работает примерно до 14:00, дальше — buenas tardes.", "difficulty": "A1", "tags": ["greetings"] },
+    { "spanish": "Hasta luego", "translation": "До встречи / пока", "example": "Gracias por todo. — Hasta luego.", "exampleTranslation": "Спасибо за всё. — До встречи.", "notes": "Универсальное прощание, подходит и для магазина, и для друзей.", "difficulty": "A1", "tags": ["greetings"] },
+    { "spanish": "Mucho gusto", "translation": "Очень приятно", "example": "Soy Pavel. — Mucho gusto.", "exampleTranslation": "Я Павел. — Очень приятно.", "notes": "Формально: «Encantado / Encantada».", "difficulty": "A1", "tags": ["greetings"] },
+    { "spanish": "¿Cómo te llamas?", "translation": "Как тебя зовут?", "example": "Perdona, ¿cómo te llamas?", "exampleTranslation": "Извини, как тебя зовут?", "notes": "Вежливо к незнакомому человеку: «¿Cómo se llama usted?».", "difficulty": "A1", "tags": ["pronouns"] },
+    { "spanish": "Un placer", "translation": "С удовольствием было познакомиться", "example": "Un placer, hasta mañana.", "exampleTranslation": "Приятно было, до завтра.", "notes": "Используют на прощание после знакомства.", "difficulty": "A2", "tags": ["greetings"] },
+    { "spanish": "Nos vemos", "translation": "Увидимся", "example": "Nos vemos por la tarde.", "exampleTranslation": "Увидимся вечером.", "notes": "Короче и теплее, чем «adiós».", "difficulty": "A1", "tags": ["greetings"] }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 14,
+  "slug": "a-cuanto-esta",
+  "title": "¿A cuánto está?",
+  "subtitle": "Рынок: цены, свежесть, торг",
+  "category": "shopping",
+  "milestone": "groceries",
+  "difficulty": "A2",
+  "tags": ["shopping", "money", "food"],
+  "summary": "Рынок — лучшее место для практики испанского. Здесь все фразы короткие и повторяются.",
+  "situation": "Рынок (mercado) утром",
+  "authorComment": "На рынке в Испании принято здороваться с продавцом и ждать своей очереди. «Buenos días» перед вопросом — обязательная часть.",
+  "phrases": [
+    { "spanish": "¿A cuánto está?", "translation": "Почём? Сколько стоит?", "example": "Buenos días, ¿a cuánto están las naranjas?", "exampleTranslation": "Добрый день, почём апельсины?", "notes": "Классика испанского рынка. Говорят именно так, а не «¿cuánto cuesta?».", "difficulty": "A1", "tags": ["money", "shopping"] },
+    { "spanish": "¿Están buenos?", "translation": "Они хорошие? Свежие?", "example": "¿Están buenos los tomates hoy?", "exampleTranslation": "Помидоры сегодня хорошие?", "notes": "Про фрукты и овощи всегда «están buenos», не «son».", "difficulty": "A1", "tags": ["food"] },
+    { "spanish": "Me pone un kilo, por favor", "translation": "Мне килограмм, пожалуйста", "example": "Me pone un kilo de mandarinas, por favor.", "exampleTranslation": "Мне килограмм мандаринов, пожалуйста.", "notes": "«Me pone» работает не только в баре, но и на рынке.", "difficulty": "A1", "tags": ["shopping"] },
+    { "spanish": "Cara está la cosa", "translation": "Дороговато сейчас / времена дорогие", "example": "Uf, cara está la cosa este mes.", "exampleTranslation": "Уф, дорогая жизнь в этом месяце.", "notes": "Очень живая фраза, которую скажет любой продавец. Отвечайте: «Sí, todo ha subido».", "difficulty": "B1", "tags": ["money", "idioms"] },
+    { "spanish": "¿Me da una muestra?", "translation": "Дадите попробовать?", "example": "¿Me da una muestra del queso?", "exampleTranslation": "Дадите кусочек сыра попробовать?", "notes": "Muestra — образец. На рынке это нормально.", "difficulty": "B1", "tags": ["shopping"] },
+    { "spanish": "Es para hoy", "translation": "Это на сегодня", "example": "Es para hoy, para comer ahora.", "exampleTranslation": "Это на сегодня, поесть сейчас.", "notes": "Сигнал продавцу: нужно самое свежее и готовое к употреблению.", "difficulty": "A2", "tags": ["food"] },
+    { "spanish": "Se me ha olvidado", "translation": "Я забыл(а)", "example": "Se me ha olvidado el pescado.", "exampleTranslation": "Я забыл(а) рыбу.", "notes": "Знаменитая испанская конструкция «se me ha olvidado» — буквально «мне самому забылось».", "difficulty": "B1", "tags": ["idioms"] },
+    { "spanish": "Le faltan veinte céntimos", "translation": "Вам не хватает двадцати центов", "example": "Perdona, le faltan veinte céntimos.", "exampleTranslation": "Извините, вам не хватает 20 центов.", "notes": "Faltar — не хватать. «Me falta» — мне не хватает.", "difficulty": "B1", "tags": ["money", "numbers"] }
+  ]
+}

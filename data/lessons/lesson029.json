@@ -1,0 +1,23 @@
+{
+  "lesson": 29,
+  "slug": "el-nie",
+  "title": "El NIE",
+  "subtitle": "NIE и cita previa",
+  "category": "government",
+  "milestone": "documents",
+  "difficulty": "B1",
+  "tags": ["government", "documents", "appointments"],
+  "summary": "Как попросить cita previa, сдать документы и спросить о сроках.",
+  "situation": "Оформление NIE (идентификационного номера иностранца)",
+  "authorComment": "Без NIE в Испании почти ничего: ни работу, ни счёт, ни сим-карту. Учите этот урок как инструкцию.",
+  "phrases": [
+    { "spanish": "Necesito pedir cita previa", "translation": "Мне нужно записаться на приём", "example": "Necesito pedir cita previa para el NIE.", "exampleTranslation": "Мне нужна запись на приём для NIE.", "notes": "Cita previa — предварительная запись. Основа испанской бюрократии.", "difficulty": "B1", "tags": ["appointments", "government"] },
+    { "spanish": "Vengo por el NIE", "translation": "Я пришёл по поводу NIE", "example": "Buenos días, vengo por el NIE, tengo cita.", "exampleTranslation": "Добрый день, я по поводу NIE, у меня запись.", "notes": "«Vengo por» — я пришёл по поводу. Работает везде.", "difficulty": "B1", "tags": ["government"] },
+    { "spanish": "Tengo cita a las diez", "translation": "У меня запись на десять", "example": "Tengo cita a las diez, a nombre de Marat.", "exampleTranslation": "У меня запись на десять, на имя Марат.", "notes": "«A nombre de» — на имя. Приезжайте за 10 минут.", "difficulty": "A2", "tags": ["appointments"] },
+    { "spanish": "Falta algún documento", "translation": "Не хватает какого-то документа", "example": "¿Me falta algún documento?", "exampleTranslation": "У меня не хватает какого-то документа?", "notes": "Faltar — не хватать. Вы услышите это от чиновника.", "difficulty": "B1", "tags": ["documents"] },
+    { "spanish": "Volveré con todo", "translation": "Я вернусь со всем", "example": "Vale, vuelvo mañana con todo.", "exampleTranslation": "Хорошо, я вернусь завтра со всем.", "notes": "Volver — возвращаться. Volveré — будущее время.", "difficulty": "B1", "tags": ["government"] },
+    { "spanish": "¿Cuánto tarda el trámite?", "translation": "Сколько занимает процедура?", "example": "¿Cuánto tarda el trámite en total?", "exampleTranslation": "Сколько времени занимает вся процедура?", "notes": "El trámite — процедура, формальность. Слово, которое вы будете слышать годами.", "difficulty": "B1", "tags": ["government", "time"] },
+    { "spanish": "Se ha perdido mi expediente", "translation": "Моё дело потерялось", "example": "Parece que se ha perdido mi expediente.", "exampleTranslation": "Похоже, моё дело потерялось.", "notes": "Expediente — дело, досье. Да, такое бывает.", "difficulty": "B2", "tags": ["problems", "government"] },
+    { "spanish": "¿Me puede dar un justificante?", "translation": "Можете дать справку/подтверждение?", "example": "¿Me puede dar un justificante de la cita?", "exampleTranslation": "Дадите подтверждение записи?", "notes": "Justificante — подтверждение, справка. Берите на каждый визит.", "difficulty": "B1", "tags": ["documents"] }
+  ]
+}

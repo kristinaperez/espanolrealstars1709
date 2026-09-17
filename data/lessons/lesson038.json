@@ -1,0 +1,23 @@
+{
+  "lesson": 38,
+  "slug": "la-nomina",
+  "title": "La nómina",
+  "subtitle": "Контракт, зарплата и налоги",
+  "category": "work",
+  "milestone": "work",
+  "difficulty": "B2",
+  "tags": ["work", "money", "documents"],
+  "summary": "Понять контракт, расчётный лист и задать вопросы о зарплате.",
+  "situation": "Подписание рабочего контракта",
+  "authorComment": "В расчётном листе ищите три строки: bruto, retenciones, neto. Bruto — до налогов, neto — то, что придёт на карту.",
+  "phrases": [
+    { "spanish": "¿Cuál es el salario bruto?", "translation": "Какая зарплата до налогов?", "example": "¿Cuál es el salario bruto y el neto?", "exampleTranslation": "Какая зарплата грязными и чистыми?", "notes": "Bruto — грязными, neto — чистыми. Разница бывает большой.", "difficulty": "B1", "tags": ["money", "work"] },
+    { "spanish": "¿Cuántas horas a la semana?", "translation": "Сколько часов в неделю?", "example": "¿Cuántas horas a la semana son?", "exampleTranslation": "Сколько часов в неделю?", "notes": "Horas semanales, horas extra — основные слова о графике.", "difficulty": "A2", "tags": ["work"] },
+    { "spanish": "Es un contrato temporal", "translation": "Это срочный контракт", "example": "Es un contrato temporal de seis meses.", "exampleTranslation": "Это срочный контракт на полгода.", "notes": "Temporal — срочный, indefinido — бессрочный.", "difficulty": "B1", "tags": ["work", "documents"] },
+    { "spanish": "¿Me hacen las horas extra?", "translation": "Мне оплатят переработки?", "example": "¿Me pagan las horas extra?", "exampleTranslation": "Переработки оплачиваются?", "notes": "Pagar las horas extra — платить за переработки.", "difficulty": "B1", "tags": ["money", "work"] },
+    { "spanish": "El pago es mensual", "translation": "Выплата ежемесячная", "example": "El pago es mensual, el día 30.", "exampleTranslation": "Зарплата раз в месяц, 30-го числа.", "notes": "Mensual — ежемесячный. Quincenal — раз в две недели.", "difficulty": "B1", "tags": ["money"] },
+    { "spanish": "Estoy dado de alta en la seguridad social", "translation": "Я оформлен в соцстраховании", "example": "Ya estoy dado de alta en la seguridad social.", "exampleTranslation": "Я уже оформлен в системе соцстрахования.", "notes": "Darse de alta — зарегистрироваться. Darse de baja — сняться с учёта.", "difficulty": "B2", "tags": ["government", "work"] },
+    { "spanish": "¿Tengo periodo de prueba?", "translation": "У меня есть испытательный срок?", "example": "¿Tengo periodo de prueba? ¿De cuánto?", "exampleTranslation": "Есть испытательный срок? Какой длительности?", "notes": "Periodo de prueba — испытательный срок, обычно 1–3 месяца.", "difficulty": "B2", "tags": ["work"] },
+    { "spanish": "Firmo el contrato hoy", "translation": "Я подписываю контракт сегодня", "example": "Si todo está claro, firmo el contrato hoy.", "exampleTranslation": "Если всё ясно, подписываю контракт сегодня.", "notes": "Всегда читайте контракт: «¿Puedo leerlo antes?».", "difficulty": "A2", "tags": ["documents"] }
+  ]
+}

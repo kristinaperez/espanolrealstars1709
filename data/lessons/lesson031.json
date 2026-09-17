@@ -1,0 +1,23 @@
+{
+  "lesson": 31,
+  "slug": "extranjeria",
+  "title": "Extranjería",
+  "subtitle": "Миграционная служба и резиденция",
+  "category": "government",
+  "milestone": "documents",
+  "difficulty": "B2",
+  "tags": ["government", "documents", "residency"],
+  "summary": "Разговор о статусе: резиденция, продление, справка о доходах.",
+  "situation": "Отделение extranjería",
+  "authorComment": "Здесь испанский сложнее, но словарь повторяется: renovar, en trámite, resolución, aportar. Учите словами-маркерами.",
+  "phrases": [
+    { "spanish": "Estoy esperando la resolución", "translation": "Я жду решения", "example": "Estoy esperando la resolución desde hace tres meses.", "exampleTranslation": "Я жду решения уже три месяца.", "notes": "Resolución — решение инстанции. «Desde hace» — уже (сколько времени).", "difficulty": "B2", "tags": ["government", "time"] },
+    { "spanish": "Mi expediente está en trámite", "translation": "Моё дело в процессе", "example": "Mi expediente está en trámite, sin novedades.", "exampleTranslation": "Дело в обработке, новостей нет.", "notes": "En trámite — в процессе рассмотрения. Стандартный ответ испанской бюрократии.", "difficulty": "B2", "tags": ["government"] },
+    { "spanish": "Tengo que renovar el permiso", "translation": "Мне нужно продлить разрешение", "example": "Tengo que renovar el permiso de residencia.", "exampleTranslation": "Мне нужно продлить вид на жительство.", "notes": "Renovar — продлевать. Permiso de residencia — ВНЖ.", "difficulty": "B1", "tags": ["residency"] },
+    { "spanish": "Aporto más documentación", "translation": "Я предоставляю дополнительные документы", "example": "Quiero aportar más documentación a mi expediente.", "exampleTranslation": "Хочу добавить документы к моему делу.", "notes": "Aportar — предоставлять, приносить. Бюрократический глагол.", "difficulty": "B2", "tags": ["documents"] },
+    { "spanish": "¿Me pueden informar del estado?", "translation": "Можете сообщить о состоянии дела?", "example": "¿Me pueden informar del estado de mi expediente?", "exampleTranslation": "Можете сказать, на какой стадии моё дело?", "notes": "Informar de — сообщать о. Estado — состояние, статус.", "difficulty": "B1", "tags": ["government"] },
+    { "spanish": "Trabajo con contrato", "translation": "Я работаю по контракту", "example": "Trabajo con contrato indefinido.", "exampleTranslation": "У меня бессрочный контракт.", "notes": "Contrato indefinido — бессрочный. Contrato temporal — срочный.", "difficulty": "B1", "tags": ["work", "documents"] },
+    { "spanish": "Justifico mis ingresos", "translation": "Я подтверждаю свои доходы", "example": "Justifico mis ingresos con las nóminas.", "exampleTranslation": "Подтверждаю доходы справками о зарплате.", "notes": "Justificar — подтверждать. Ingresos — доходы.", "difficulty": "B2", "tags": ["money", "documents"] },
+    { "spanish": "¿Puedo pedir cita para otra vez?", "translation": "Могу записаться на другой раз?", "example": "¿Puedo pedir cita para la semana que viene?", "exampleTranslation": "Могу записать на следующую неделю?", "notes": "«La semana que viene» — на следующей неделе. Полезная фраза про время.", "difficulty": "B1", "tags": ["appointments", "time"] }
+  ]
+}

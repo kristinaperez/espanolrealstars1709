@@ -1,0 +1,23 @@
+{
+  "lesson": 36,
+  "slug": "curriculum",
+  "title": "El currículum",
+  "subtitle": "Резюме и переписка",
+  "category": "work",
+  "milestone": "work",
+  "difficulty": "B1",
+  "tags": ["work", "writing", "documents"],
+  "summary": "Как написать сопроводительное письмо и ответить на вакансию по email.",
+  "situation": "Ответ на вакансию по электронной почте",
+  "authorComment": "Письмо строится по формуле: откуда узнал, кто вы, что умеете, когда готовы начать. Четыре предложения — и работодатель вас понял.",
+  "phrases": [
+    { "spanish": "Adjunto mi currículum", "translation": "Прикладываю своё резюме", "example": "Le escribo porque adjunto mi currículum.", "exampleTranslation": "Пишу вам и прикладываю своё резюме.", "notes": "Adjuntar — прикреплять (файл). Обязательно в письме.", "difficulty": "B1", "tags": ["writing", "work"] },
+    { "spanish": "Me dirijo a usted", "translation": "Обращаюсь к вам", "example": "Me dirijo a usted en relación con su oferta.", "exampleTranslation": "Обращаюсь к вам по поводу вашей вакансии.", "notes": "Формальное начало письма. Usted — уважительное «вы».", "difficulty": "B2", "tags": ["writing"] },
+    { "spanish": "Soy una persona responsable", "translation": "Я ответственный человек", "example": "Soy una persona responsable y puntual.", "exampleTranslation": "Я ответственный и пунктуальный человек.", "notes": "Puntual — пунктуальный. Ключевые прилагательные для CV.", "difficulty": "A2", "tags": ["work"] },
+    { "spanish": "Estoy disponible", "translation": "Я доступен / могу работать", "example": "Estoy disponible a partir del lunes.", "exampleTranslation": "Свободен с понедельника.", "notes": "Disponible — доступный. A partir de — начиная с.", "difficulty": "B1", "tags": ["work", "time"] },
+    { "spanish": "Quedo a la espera de su respuesta", "translation": "Жду вашего ответа", "example": "Quedo a la espera de su respuesta. Un saludo.", "exampleTranslation": "Жду вашего ответа. С уважением.", "notes": "Стандартная формула завершения письма.", "difficulty": "B2", "tags": ["writing"] },
+    { "spanish": "Un saludo cordial", "translation": "С уважением", "example": "Gracias por su tiempo. Un saludo cordial.", "exampleTranslation": "Спасибо за ваше время. С уважением.", "notes": "Un saludo / cordial saludo — подпись в письме.", "difficulty": "B1", "tags": ["writing", "politeness"] },
+    { "spanish": "He visto su oferta en Internet", "translation": "Я увидел вашу вакансию в интернете", "example": "He visto su oferta en InfoJobs.", "exampleTranslation": "Я увидел вашу вакансию на InfoJobs.", "notes": "«He visto» — я видел (прошедшее с связью с настоящим).", "difficulty": "B1", "tags": ["writing"] },
+    { "spanish": "Me interesa el puesto", "translation": "Мне интересна эта позиция", "example": "Me interesa el puesto de camarero.", "exampleTranslation": "Мне интересна позиция официанта.", "notes": "El puesto — должность, место. Interesar — интересовать.", "difficulty": "B1", "tags": ["work"] }
+  ]
+}

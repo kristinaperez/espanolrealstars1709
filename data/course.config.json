@@ -1,0 +1,613 @@
+{
+  "course": {
+    "id": "espanol-real",
+    "title": "Español Real",
+    "tagline": "Learn Real Spanish Spoken in Spain",
+    "subtitle": "Master real-life phrases instead of memorizing grammar.",
+    "language": "es",
+    "sourceLanguage": "ru",
+    "freeLessonCount": 7,
+    "examEvery": 5,
+    "quizQuestionCount": 12,
+    "examQuestionCount": 18,
+    "author": {
+      "name": "Автор учебника «Español Real»",
+      "method": "Авторский метод: только живые фразы, которые реально слышно в Испании."
+    }
+  },
+  "categories": [
+    {
+      "id": "daily-life",
+      "label": "Daily Life",
+      "labelRu": "Повседневная жизнь",
+      "emoji": "🧩",
+      "color": "#f97316"
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "labelRu": "Жильё",
+      "emoji": "🏠",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": "restaurant",
+      "label": "Restaurant",
+      "labelRu": "Кафе и ресторан",
+      "emoji": "☕",
+      "color": "#a855f7"
+    },
+    {
+      "id": "shopping",
+      "label": "Shopping",
+      "labelRu": "Покупки",
+      "emoji": "🛒",
+      "color": "#22c55e"
+    },
+    {
+      "id": "transport",
+      "label": "Transport",
+      "labelRu": "Транспорт",
+      "emoji": "🚌",
+      "color": "#eab308"
+    },
+    {
+      "id": "health",
+      "label": "Doctor",
+      "labelRu": "Врач и здоровье",
+      "emoji": "🏥",
+      "color": "#ef4444"
+    },
+    {
+      "id": "bank",
+      "label": "Bank",
+      "labelRu": "Банк",
+      "emoji": "🏦",
+      "color": "#14b8a6"
+    },
+    {
+      "id": "government",
+      "label": "Government",
+      "labelRu": "Государство и документы",
+      "emoji": "📄",
+      "color": "#6366f1"
+    },
+    {
+      "id": "police",
+      "label": "Police",
+      "labelRu": "Полиция",
+      "emoji": "🚓",
+      "color": "#334155"
+    },
+    {
+      "id": "social-worker",
+      "label": "Social Worker",
+      "labelRu": "Социальный работник",
+      "emoji": "🤝",
+      "color": "#ec4899"
+    },
+    {
+      "id": "work",
+      "label": "Work",
+      "labelRu": "Работа",
+      "emoji": "💼",
+      "color": "#0d9488"
+    },
+    {
+      "id": "social",
+      "label": "Social",
+      "labelRu": "Общение и друзья",
+      "emoji": "🎉",
+      "color": "#f43f5e"
+    },
+    {
+      "id": "school",
+      "label": "School",
+      "labelRu": "Школа",
+      "emoji": "🎒",
+      "color": "#8b5cf6"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "first-days",
+      "emoji": "🛬",
+      "title": "Первые дни в Испании",
+      "titleEn": "First days in Spain",
+      "description": "Ты можешь поздороваться, спросить, переспросить и не потеряться в первом разговоре.",
+      "unlockHint": "Открывается уроками 1–3"
+    },
+    {
+      "id": "housing",
+      "emoji": "🏠",
+      "title": "Заселился в квартиру",
+      "titleEn": "Moved into a flat",
+      "description": "Ты понимаешь аренду, договор, fianza и можешь сообщить об аварии в квартире.",
+      "unlockHint": "Открывается уроками 4–8"
+    },
+    {
+      "id": "coffee",
+      "emoji": "☕",
+      "title": "Заказал кофе",
+      "titleEn": "Ordered a coffee",
+      "description": "Ты заказываешь в баре так, как это делают местные: «Me pones un café con leche, por favor».",
+      "unlockHint": "Открывается уроками 9–12"
+    },
+    {
+      "id": "groceries",
+      "emoji": "🛒",
+      "title": "Купил продукты",
+      "titleEn": "Bought groceries",
+      "description": "Супермаркет, рынок, вес, сдача — всё без паники и без переводчика.",
+      "unlockHint": "Открывается уроками 13–16"
+    },
+    {
+      "id": "transport",
+      "emoji": "🚌",
+      "title": "Доехал на автобусе",
+      "titleEn": "Took the bus",
+      "description": "Метро, автобус, такси и cercanías: купить билет, спросить остановку, не проехать свою.",
+      "unlockHint": "Открывается уроками 17–20"
+    },
+    {
+      "id": "doctor",
+      "emoji": "🏥",
+      "title": "Посетил врача",
+      "titleEn": "Visited the doctor",
+      "description": "Записаться на приём, описать симптомы, понять рецепт и купить лекарства.",
+      "unlockHint": "Открывается уроками 21–24"
+    },
+    {
+      "id": "bank",
+      "emoji": "🏦",
+      "title": "Открыл банковский счёт",
+      "titleEn": "Opened a bank account",
+      "description": "Карта, Cajero, переводы, recibos, комиссии и блокировка карты.",
+      "unlockHint": "Открывается уроками 25–28"
+    },
+    {
+      "id": "documents",
+      "emoji": "📄",
+      "title": "Подал документы",
+      "titleEn": "Submitted the paperwork",
+      "description": "NIE, empadronamiento, extranjería, cita previa, полиция и социальный работник.",
+      "unlockHint": "Открывается уроками 29–34"
+    },
+    {
+      "id": "work",
+      "emoji": "💼",
+      "title": "Прошёл собеседование",
+      "titleEn": "Passed the interview",
+      "description": "Поиск работы, CV, интервью, контракт и nómina — на испанском.",
+      "unlockHint": "Открывается уроками 35–38"
+    },
+    {
+      "id": "friends",
+      "emoji": "🎉",
+      "title": "Завёл друзей",
+      "titleEn": "Made friends",
+      "description": "Планы, приглашения, отговорки, разговор о себе и живой сленг: vale, guay, mola.",
+      "unlockHint": "Открывается уроками 39–42"
+    },
+    {
+      "id": "belonging",
+      "emoji": "🇪🇸",
+      "title": "Чувствую себя как дома",
+      "titleEn": "Feels like home",
+      "description": "Школа детей, соседи, reclamar, отстаивать себя и жить в Испании по-настоящему.",
+      "unlockHint": "Открывается уроками 43–45"
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Новичок",
+      "nameEs": "Principiante",
+      "minXp": 0
+    },
+    {
+      "level": 5,
+      "name": "Путешественник",
+      "nameEs": "Viajero",
+      "minXp": 2000
+    },
+    {
+      "level": 10,
+      "name": "Резидент",
+      "nameEs": "Residente",
+      "minXp": 4500
+    },
+    {
+      "level": 20,
+      "name": "Собеседник",
+      "nameEs": "Conversador",
+      "minXp": 9500
+    },
+    {
+      "level": 30,
+      "name": "Испанский выживший",
+      "nameEs": "Spain Survivor",
+      "minXp": 14500
+    },
+    {
+      "level": 45,
+      "name": "Native Killer 😄",
+      "nameEs": "Native Killer",
+      "minXp": 22000
+    }
+  ],
+  "xpPerLevel": 500,
+  "xp": {
+    "flashcard": 2,
+    "reverseFlashcard": 2,
+    "correctAnswer": 5,
+    "perfectLesson": 20,
+    "lessonCompleted": 50,
+    "reviewCompleted": 30,
+    "examCompleted": 100,
+    "streakBonus5": 50,
+    "dailyGoalBonus": 25
+  },
+  "combo": [
+    {
+      "streak": 3,
+      "bonusPercent": 10
+    },
+    {
+      "streak": 5,
+      "bonusPercent": 20
+    },
+    {
+      "streak": 10,
+      "bonusPercent": 50
+    }
+  ],
+  "hearts": {
+    "enabled": false,
+    "max": 5,
+    "regenHours": 4
+  },
+  "dailyGoals": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "srs": {
+    "intervalsDays": [
+      1,
+      3,
+      7,
+      30,
+      90
+    ],
+    "maxIntervalDays": 180
+  },
+  "achievements": [
+    {
+      "id": "first-lesson",
+      "emoji": "🎯",
+      "title": "Первый урок",
+      "description": "Завершить первый урок",
+      "rule": {
+        "type": "lessonsCompleted",
+        "value": 1
+      }
+    },
+    {
+      "id": "five-lessons",
+      "emoji": "🔥",
+      "title": "Пять уроков",
+      "description": "Завершить 5 уроков",
+      "rule": {
+        "type": "lessonsCompleted",
+        "value": 5
+      }
+    },
+    {
+      "id": "lesson-10",
+      "emoji": "📗",
+      "title": "Урок 10 пройден",
+      "description": "Завершить урок 10",
+      "rule": {
+        "type": "lessonCompleted",
+        "value": 10
+      }
+    },
+    {
+      "id": "lesson-45",
+      "emoji": "🏆",
+      "title": "Урок 45 пройден",
+      "description": "Завершить урок 45",
+      "rule": {
+        "type": "lessonCompleted",
+        "value": 45
+      }
+    },
+    {
+      "id": "ten-correct",
+      "emoji": "✅",
+      "title": "10 правильных ответов",
+      "description": "10 верных ответов подряд с начала обучения",
+      "rule": {
+        "type": "correctAnswers",
+        "value": 10
+      }
+    },
+    {
+      "id": "hundred-correct",
+      "emoji": "💯",
+      "title": "100 правильных ответов",
+      "description": "100 верных ответов всего",
+      "rule": {
+        "type": "correctAnswers",
+        "value": 100
+      }
+    },
+    {
+      "id": "streak-7",
+      "emoji": "📅",
+      "title": "7 дней подряд",
+      "description": "Заниматься 7 дней подряд",
+      "rule": {
+        "type": "streak",
+        "value": 7
+      }
+    },
+    {
+      "id": "streak-30",
+      "emoji": "⚡",
+      "title": "30 дней подряд",
+      "description": "Заниматься 30 дней подряд",
+      "rule": {
+        "type": "streak",
+        "value": 30
+      }
+    },
+    {
+      "id": "first-perfect",
+      "emoji": "🌟",
+      "title": "Первый идеальный урок",
+      "description": "Пройти урок без ошибок",
+      "rule": {
+        "type": "perfectLessons",
+        "value": 1
+      }
+    },
+    {
+      "id": "phrases-100",
+      "emoji": "📚",
+      "title": "100 фраз выучено",
+      "description": "Освоить 100 фраз",
+      "rule": {
+        "type": "phrasesLearned",
+        "value": 100
+      }
+    },
+    {
+      "id": "no-mistakes-today",
+      "emoji": "🧘",
+      "title": "Ни одной ошибки сегодня",
+      "description": "Пройти день без ошибок (минимум 10 ответов)",
+      "rule": {
+        "type": "mistakeFreeDay",
+        "value": 10
+      }
+    },
+    {
+      "id": "reviewer",
+      "emoji": "♻️",
+      "title": "Мастер повторения",
+      "description": "Выполнить 5 сессий повторения",
+      "rule": {
+        "type": "reviewSessions",
+        "value": 5
+      }
+    },
+    {
+      "id": "milestone-coffee",
+      "emoji": "☕",
+      "title": "Я могу заказать кофе",
+      "description": "Пройти все уроки этапа «Заказал кофе»",
+      "rule": {
+        "type": "milestoneCompleted",
+        "value": "coffee"
+      }
+    },
+    {
+      "id": "milestone-bank",
+      "emoji": "🏦",
+      "title": "Свой счёт в банке",
+      "description": "Пройти все уроки этапа «Открыл банковский счёт»",
+      "rule": {
+        "type": "milestoneCompleted",
+        "value": "bank"
+      }
+    },
+    {
+      "id": "final-exam",
+      "emoji": "🎓",
+      "title": "Финальный экзамен",
+      "description": "Сдать последний экзамен курса",
+      "rule": {
+        "type": "examsCompleted",
+        "value": 1
+      }
+    }
+  ],
+  "pricing": {
+    "free": {
+      "id": "free",
+      "title": "Free",
+      "price": "Бесплатно",
+      "period": "7 дней бесплатно",
+      "features": [
+        "Первые 7 уроков",
+        "Все типы упражнений",
+        "Карта адаптации в Испании",
+        "Прогресс и статистика",
+        "Сохранение прогресса на устройстве"
+      ],
+      "cta": "Начать бесплатно"
+    },
+    "premium": {
+      "id": "premium",
+      "title": "Premium",
+      "price": "500 ⭐",
+      "period": "разовая оплата",
+      "features": [
+        "Все 45 уроков",
+        "Полная система повторения",
+        "Годовой план повторений",
+        "Все будущие уроки и обновления",
+        "Экзамены каждые 5 уроков",
+        "Сертификат о прохождении",
+        "Бессрочный доступ"
+      ],
+      "cta": "Разблокировать за 500 ⭐",
+      "note": "Без подписки и автоплатежей."
+    }
+  },
+  "testimonials": [
+    {
+      "name": "Ирина",
+      "role": "Переехала в Валенсию, 2024",
+      "quote": "Через две недели я сама заказывала кофе и спрашивала про остановку. Фразы из уроков слышно буквально каждый день.",
+      "placeholder": true
+    },
+    {
+      "name": "Марат",
+      "role": "Работает в Мадриде",
+      "quote": "Я раньше учил грамматику полгода и молчал. Здесь выучил 60 фраз — и уже говорил на работе.",
+      "placeholder": true
+    },
+    {
+      "name": "Ольга",
+      "role": "Мама двоих детей, Аликанте",
+      "quote": "Урок про школу и врача спас меня: я поняла, что говорит учитель моего сына.",
+      "placeholder": true
+    },
+    {
+      "name": "Дмитрий",
+      "role": "Digital nomad, Барселона",
+      "quote": "Занимаюсь по 10 минут в метро. Стрик 40 дней — и соседи в баре уже здороваются со мной по-испански.",
+      "placeholder": true
+    },
+    {
+      "name": "Anastasia",
+      "role": "Студентка, Севилья",
+      "quote": "Карта адаптации — лучшее. Видно, что я уже «открыла счёт в банке» и «подала документы».",
+      "placeholder": true
+    },
+    {
+      "name": "Павел",
+      "role": "Инженер, Бильбао",
+      "quote": "Повторение по расписанию реально работает: ошибки возвращаются ровно тогда, когда я начинаю их забывать.",
+      "placeholder": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "Нужна ли регистрация?",
+      "a": "Нет. Версия 1.0 работает полностью без аккаунтов: прогресс сохраняется локально в вашем браузере (localStorage)."
+    },
+    {
+      "q": "Чем это отличается от обычных курсов?",
+      "a": "Мы не учим грамматику абстрактно. Курс построен на реальных фразах из жизни в Испании: квартира, банк, врач, документы, работа."
+    },
+    {
+      "q": "Что входит в бесплатные 7 дней?",
+      "a": "Первые 7 уроков со всеми типами упражнений, картой адаптации, статистикой и повторением ошибок. Без карты и подписки."
+    },
+    {
+      "q": "Premium — это подписка?",
+      "a": "Нет. Это разовая оплата 500 ⭐. Никаких регулярных списаний, доступ бессрочный, включая все будущие уроки."
+    },
+    {
+      "q": "Как оплатить Premium?",
+      "a": "Войдите через Telegram и оплатите 500 звёзд (Stars) прямо в приложении. Списание происходит с вашего баланса Telegram: без карты, без подписки. После оплаты бот пришлёт лицензионный ключ, а доступ восстановится автоматически при следующем входе."
+    },
+    {
+      "q": "Можно ли платить картой?",
+      "a": "Пока нет — в версии 1.0 доступна оплата звёздами Telegram и активация лицензионным ключом. Архитектура платежей уже готова к подключению Stripe."
+    },
+    {
+      "q": "Пропущу ли я что-то без интернета?",
+      "a": "Нет, приложение работает офлайн после первой загрузки и устанавливается как PWA на телефон."
+    },
+    {
+      "q": "Сколько уроков в курсе?",
+      "a": "45 уроков и 9 экзаменов (каждые 5 уроков). Курс расширяется: новые уроки добавляются простым добавлением JSON-файлов."
+    },
+    {
+      "q": "Подойдёт ли курс для уровня A0?",
+      "a": "Да. Начинаем с фраз уровня A1, которые нужны в первый же день в Испании."
+    }
+  ],
+  "navigation": [
+    {
+      "href": "/learn",
+      "label": "Дашборд",
+      "icon": "home"
+    },
+    {
+      "href": "/learn/lessons",
+      "label": "Уроки",
+      "icon": "book"
+    },
+    {
+      "href": "/learn/map",
+      "label": "Карта адаптации",
+      "icon": "map"
+    },
+    {
+      "href": "/learn/review",
+      "label": "Повторение",
+      "icon": "repeat"
+    },
+    {
+      "href": "/learn/mistakes",
+      "label": "Ошибки",
+      "icon": "alert"
+    },
+    {
+      "href": "/learn/search",
+      "label": "Поиск",
+      "icon": "search"
+    },
+    {
+      "href": "/learn/stats",
+      "label": "Статистика",
+      "icon": "chart"
+    },
+    {
+      "href": "/learn/settings",
+      "label": "Настройки",
+      "icon": "settings"
+    },
+    {
+      "href": "/learn/about",
+      "label": "О курсе",
+      "icon": "info"
+    }
+  ],
+  "payments": {
+    "premiumProductId": "premium-45",
+    "starsPrice": 500,
+    "currency": "XTR",
+    "methods": [
+      {
+        "id": "telegram_stars",
+        "label": "Telegram Stars",
+        "note": "Оплата внутри Telegram, без карты",
+        "enabled": true
+      },
+      {
+        "id": "license_key",
+        "label": "Лицензионный ключ",
+        "note": "Офлайн-активация XXXX-XXXX-XXXX",
+        "enabled": true
+      }
+    ]
+  }
+}

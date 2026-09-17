@@ -1,0 +1,23 @@
+{
+  "lesson": 44,
+  "slug": "reclamar",
+  "title": "Reclamar",
+  "subtitle": "Отстаивать свои права",
+  "category": "daily-life",
+  "milestone": "belonging",
+  "difficulty": "B2",
+  "tags": ["complaints", "consumer rights", "problems"],
+  "summary": "Как вежливо, но твёрдо потребовать решение: в магазине, в компании, у оператора.",
+  "situation": "Разговор с оператором сервиса или в магазине",
+  "authorComment": "В Испании работает формула: спокойный тон + «quiero reclamar» + номер обращения. Крик не работает, работает hoja de reclamaciones.",
+  "phrases": [
+    { "spanish": "Quiero hacer una reclamación", "translation": "Я хочу подать претензию", "example": "Quiero hacer una reclamación formal.", "exampleTranslation": "Я хочу подать официальную претензию.", "notes": "Reclamación — претензия. Есть во всех заведениях Испании.", "difficulty": "B1", "tags": ["complaints"] },
+    { "spanish": "No estoy contento con el servicio", "translation": "Я недоволен обслуживанием", "example": "No estoy contento con el servicio recibido.", "exampleTranslation": "Я недоволен обслуживанием.", "notes": "Estar contento con — быть довольным чем-то.", "difficulty": "B1", "tags": ["complaints"] },
+    { "spanish": "Esto no funciona", "translation": "Это не работает", "example": "Compré ayer y esto no funciona.", "exampleTranslation": "Купил вчера, и это не работает.", "notes": "Начало любой рекламации: факт + проблема.", "difficulty": "A1", "tags": ["complaints"] },
+    { "spanish": "Quiero el dinero de vuelta", "translation": "Я хочу вернуть деньги", "example": "Quiero el dinero de vuelta o otro producto.", "exampleTranslation": "Хочу вернуть деньги или получить другой товар.", "notes": "«De vuelta» — обратно. Также «el reembolso».", "difficulty": "B1", "tags": ["money", "complaints"] },
+    { "spanish": "Tengo el ticket", "translation": "У меня есть чек", "example": "Tengo el ticket, aquí está.", "exampleTranslation": "У меня есть чек, вот он.", "notes": "Без чека (ticket) возврат почти невозможен.", "difficulty": "A1", "tags": ["shopping", "complaints"] },
+    { "spanish": "¿Puedo hablar con el responsable?", "translation": "Могу поговорить с ответственным?", "example": "¿Puedo hablar con el responsable, por favor?", "exampleTranslation": "Могу поговорить с управляющим?", "notes": "Responsable — ответственный, руководитель. Спокойно и эффективно.", "difficulty": "B1", "tags": ["complaints"] },
+    { "spanish": "Entonces esperaré su respuesta", "translation": "Тогда я подожду вашего ответа", "example": "Entonces esperaré su respuesta por escrito.", "exampleTranslation": "Тогда буду ждать письменного ответа.", "notes": "Фраза-давление без конфликта. По закону отвечают в срок.", "difficulty": "B2", "tags": ["complaints"] },
+    { "spanish": "Gracias por resolverlo", "translation": "Спасибо, что решили вопрос", "example": "Gracias por resolverlo tan rápido.", "exampleTranslation": "Спасибо, что быстро решили вопрос.", "notes": "Завершайте конфликт вежливо — вас запомнят как адекватного человека.", "difficulty": "B1", "tags": ["politeness"] }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 9,
+  "slug": "un-cafe-con-leche",
+  "title": "Un café con leche",
+  "subtitle": "Заказ в баре как местный",
+  "category": "restaurant",
+  "milestone": "coffee",
+  "difficulty": "A1",
+  "tags": ["restaurant", "ordering", "food"],
+  "summary": "Испанцы не говорят «I would like». Они говорят «Me pones...». Это самый быстрый способ звучать по-испански.",
+  "situation": "Утро в баре у дома",
+  "authorComment": "Заказ — идеальная тренировка испанского: короткие фразы, мгновенный ответ, никакого стресса. Начинайте день с «un café con leche».",
+  "phrases": [
+    { "spanish": "Me pones un café con leche", "translation": "Мне кофе с молоком, пожалуйста", "example": "Hola, me pones un café con leche, por favor.", "exampleTranslation": "Привет, сделай мне кофе с молоком, пожалуйста.", "notes": "Главный паттерн урока. «Me pones» — буквально «мне поставишь».", "difficulty": "A1", "tags": ["ordering"] },
+    { "spanish": "Un cortado, por favor", "translation": "Кортадо, пожалуйста", "example": "Un cortado y una tostada, por favor.", "exampleTranslation": "Кортадо и тост, пожалуйста.", "notes": "Cortado — эспрессо с каплей молока. Тот самый испанский стандарт.", "difficulty": "A1", "tags": ["ordering", "food"] },
+    { "spanish": "Para mí, un té con limón", "translation": "Мне чай с лимоном", "example": "Para mí, un té con limón. Para ella, un café solo.", "exampleTranslation": "Мне чай с лимоном. Ей — чёрный кофе.", "notes": "«Para mí» — способ заказать за другого человека.", "difficulty": "A1", "tags": ["ordering"] },
+    { "spanish": "¿Me pones también una tostada?", "translation": "Мне ещё тост, пожалуйста?", "example": "¿Me pones también una tostada con tomate?", "exampleTranslation": "А ещё мне тост с томатом?", "notes": "Tostada con tomate — завтрак Испании. Con aceite y sal.", "difficulty": "A1", "tags": ["food"] },
+    { "spanish": "Sin azúcar, gracias", "translation": "Без сахара, спасибо", "example": "Un café con leche, sin azúcar, gracias.", "exampleTranslation": "Кофе с молоком, без сахара, спасибо.", "notes": "Con / sin — две маленькие фразы, которые нужны каждый день.", "difficulty": "A1", "tags": ["ordering"] },
+    { "spanish": "¿Tienen leche de avena?", "translation": "У вас есть овсяное молоко?", "example": "¿Tienen leche de avena o de soja?", "exampleTranslation": "У вас овсяное или соевое молоко?", "notes": "В современных барах спрашивают часто.", "difficulty": "A2", "tags": ["food"] },
+    { "spanish": "Está muy bueno", "translation": "Очень вкусно", "example": "El café está muy bueno, gracias.", "exampleTranslation": "Кофе очень хороший, спасибо.", "notes": "«Está bueno» — про еду сейчас. «Es bueno» — вообще. Разница важна.", "difficulty": "A1", "tags": ["restaurant"] },
+    { "spanish": "En la barra, por favor", "translation": "За стойкой, пожалуйста", "example": "Lo tomo en la barra, por favor.", "exampleTranslation": "Я выпью за стойкой, пожалуйста.", "notes": "У стойки (en la barra) часто дешевле, чем за столиком.", "difficulty": "A2", "tags": ["restaurant"] }
+  ]
+}

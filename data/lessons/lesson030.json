@@ -1,0 +1,23 @@
+{
+  "lesson": 30,
+  "slug": "empadronamiento",
+  "title": "El empadronamiento",
+  "subtitle": "Прописка: registro и справки",
+  "category": "government",
+  "milestone": "documents",
+  "difficulty": "B1",
+  "tags": ["government", "documents", "housing"],
+  "summary": "Зарегистрироваться по месту жительства и получить volante de empadronamiento.",
+  "situation": "Аюнтамьенто (ayuntamiento), отдел регистрации",
+  "authorComment": "Empadronamiento даёт вам право на медкарту, библиотеку, школу детей и скидки в городе. Это самый полезный бюрократический шаг.",
+  "phrases": [
+    { "spanish": "Quiero empadronarme", "translation": "Я хочу прописаться", "example": "Quiero empadronarme en este piso.", "exampleTranslation": "Я хочу зарегистрироваться в этой квартире.", "notes": "Empadronarse — прописываться. Reflexivo, как «registrarse».", "difficulty": "B1", "tags": ["government"] },
+    { "spanish": "Necesito el volante de empadronamiento", "translation": "Мне нужна справка о прописке", "example": "Necesito el volante de empadronamiento para la escuela.", "exampleTranslation": "Мне нужна справка о прописке для школы.", "notes": "Volante — справка. También «el certificado».", "difficulty": "B1", "tags": ["documents"] },
+    { "spanish": "Vivo con mi pareja", "translation": "Я живу с партнёром", "example": "Vivo con mi pareja, el piso es de ella.", "exampleTranslation": "Я живу с партнёршей, квартира её.", "notes": "Чиновник спросит, кто владелец и кто ещё прописан.", "difficulty": "A2", "tags": ["housing"] },
+    { "spanish": "El casero me autoriza", "translation": "Хозяин меня разрешает / даёт согласие", "example": "El casero me autoriza por escrito.", "exampleTranslation": "Хозяин даёт согласие письменно.", "notes": "Autorizar — разрешать. Часто требуется autorización escrita.", "difficulty": "B1", "tags": ["housing", "documents"] },
+    { "spanish": "Somos tres en el piso", "translation": "Нас трое в квартире", "example": "Somos tres en el piso, mi mujer y mi hijo.", "exampleTranslation": "Нас трое: жена, сын и я.", "notes": "Ser + число — простая формула состава семьи.", "difficulty": "A1", "tags": ["daily life"] },
+    { "spanish": "Ya estoy empadronado", "translation": "Я уже прописан", "example": "Ya estoy empadronado desde marzo.", "exampleTranslation": "Я прописан с марта.", "notes": "Empadronado/a — прописан. Род зависит от пола говорящего.", "difficulty": "B1", "tags": ["government"] },
+    { "spanish": "¿Hay que renovarlo?", "translation": "Нужно ли продлевать?", "example": "¿Hay que renovarlo cada año?", "exampleTranslation": "Нужно продлевать каждый год?", "notes": "«Hay que + inf» — нужно (безлично). Очень нужная конструкция.", "difficulty": "B1", "tags": ["government"] },
+    { "spanish": "Gracias por la ayuda", "translation": "Спасибо за помощь", "example": "Gracias por la ayuda, muy amable.", "exampleTranslation": "Спасибо за помощь, очень любезно.", "notes": "«Muy amable» — фраза, которая украшает любой визит в инстанцию.", "difficulty": "A2", "tags": ["politeness"] }
+  ]
+}

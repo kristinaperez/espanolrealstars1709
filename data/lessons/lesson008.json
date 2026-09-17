@@ -1,0 +1,23 @@
+{
+  "lesson": 8,
+  "slug": "hay-una-averia",
+  "title": "Hay una avería",
+  "subtitle": "Поломки и проблемы в квартире",
+  "category": "housing",
+  "milestone": "housing",
+  "difficulty": "A2",
+  "tags": ["housing", "problems", "complaints"],
+  "summary": "Как сообщить о протечке, сломанной стиральной машине и вызвать мастера.",
+  "situation": "Сообщение хозяину о поломке по телефону или в WhatsApp",
+  "authorComment": "В Испании поломку называют «avería», а мастера — «técnico». Пишите сообщение по этой схеме: проблема + место + срочно ли.",
+  "phrases": [
+    { "spanish": "Hay una avería en la cocina", "translation": "На кухне поломка", "example": "Hola, hay una avería en la cocina.", "exampleTranslation": "Привет, на кухне поломка.", "notes": "Avería — неисправность. Универсальное слово для быта.", "difficulty": "A2", "tags": ["problems"] },
+    { "spanish": "El grifo gotea", "translation": "Кран течёт", "example": "El grifo del baño gotea mucho.", "exampleTranslation": "Кран в ванной сильно капает.", "notes": "Gotea — капает. Звукоподражательное слово, легко запомнить.", "difficulty": "A2", "tags": ["problems"] },
+    { "spanish": "La lavadora no funciona", "translation": "Стиральная машина не работает", "example": "La lavadora no funciona, no centrifuga.", "exampleTranslation": "Стиралка не работает, не отжимает.", "notes": "No funciona — не работает. Подходит для любой техники.", "difficulty": "A1", "tags": ["problems"] },
+    { "spanish": "Se ha atascado el desagüe", "translation": "Засорилась канализация / слив", "example": "Se ha atascado el desagüe del fregadero.", "exampleTranslation": "Засорился слив в раковине.", "notes": "Atascarse — застревать, засоряться. Fregadero — раковина на кухне.", "difficulty": "B1", "tags": ["problems"] },
+    { "spanish": "Necesito un técnico urgentemente", "translation": "Мне срочно нужен мастер", "example": "Necesito un técnico urgentemente, hay una fuga.", "exampleTranslation": "Мне срочно нужен мастер, есть протечка.", "notes": "Urgentemente — срочно. Fuga — протечка, утечка.", "difficulty": "B1", "tags": ["problems"] },
+    { "spanish": "¿Quién paga la reparación?", "translation": "Кто платит за ремонт?", "example": "¿Quién paga la reparación, usted o yo?", "exampleTranslation": "Кто платит за ремонт, вы или я?", "notes": "Главный вопрос при любой поломке. Reparación — ремонт.", "difficulty": "B1", "tags": ["money", "complaints"] },
+    { "spanish": "Es urgente, gotea el techo", "translation": "Это срочно, течёт потолок", "example": "Es urgente, gotea el techo del cuarto de baño.", "exampleTranslation": "Срочно, течёт потолок в ванной.", "notes": "Techo — потолок. Suelo — пол.", "difficulty": "B1", "tags": ["problems"] },
+    { "spanish": "¿Me puede enviar alguien mañana?", "translation": "Можете прислать кого-нибудь завтра?", "example": "¿Me puede enviar alguien mañana por la mañana?", "exampleTranslation": "Можете прислать кого-нибудь завтра утром?", "notes": "Enviar — отправить, прислать. Формула для любых сервисов.", "difficulty": "A2", "tags": ["problems", "politeness"] }
+  ]
+}

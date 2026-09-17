@@ -1,0 +1,23 @@
+{
+  "lesson": 34,
+  "slug": "trabajadora-social",
+  "title": "La trabajadora social",
+  "subtitle": "Социальный работник и социальные службы",
+  "category": "social-worker",
+  "milestone": "documents",
+  "difficulty": "B2",
+  "tags": ["social services", "help", "family"],
+  "summary": "Как объяснить свою ситуацию, попросить помощи и понять, какие услуги доступны.",
+  "situation": "Приём у социального работника в муниципалитете",
+  "authorComment": "Не бойтесь просить о помощи — это нормально. Говорите простыми фразами: «Necesito ayuda con...». Вас поймут и подскажут.",
+  "phrases": [
+    { "spanish": "Necesito ayuda con los papeles", "translation": "Мне нужна помощь с документами", "example": "Necesito ayuda con los papeles de mi hijo.", "exampleTranslation": "Мне нужна помощь с документами моего сына.", "notes": "Ayuda — помощь. «Necesito ayuda con...» — простая и честная формула.", "difficulty": "A2", "tags": ["help"] },
+    { "spanish": "Acabo de llegar a España", "translation": "Я только что приехал в Испанию", "example": "Acabo de llegar a España hace dos meses.", "exampleTranslation": "Я приехал в Испанию два месяца назад.", "notes": "«Acabo de + inf» — только что сделал. Очень нужный паттерн.", "difficulty": "B1", "tags": ["idioms", "time"] },
+    { "spanish": "Estoy en una situación difícil", "translation": "Я в сложной ситуации", "example": "Estoy en una situación difícil con el alquiler.", "exampleTranslation": "У меня сложная ситуация с арендой.", "notes": "Situación difícil — так начинается любой разговор о помощи.", "difficulty": "B1", "tags": ["help"] },
+    { "spanish": "Tengo dos hijos pequeños", "translation": "У меня двое маленьких детей", "example": "Tengo dos hijos pequeños, de tres y siete años.", "exampleTranslation": "У меня двое детей, три и семь лет.", "notes": "Hijos/hijas — дети. Указывайте возраст — это важно для услуг.", "difficulty": "A1", "tags": ["family"] },
+    { "spanish": "¿A qué ayudas tengo derecho?", "translation": "На какие выплаты я имею право?", "example": "¿A qué ayudas tengo derecho ahora?", "exampleTranslation": "На какие пособия я сейчас имею право?", "notes": "Tener derecho a — иметь право на. Ключевая формула.", "difficulty": "B2", "tags": ["help"] },
+    { "spanish": "No tengo trabajo ahora mismo", "translation": "Сейчас у меня нет работы", "example": "No tengo trabajo ahora mismo, busco.", "exampleTranslation": "Сейчас нет работы, я ищу.", "notes": "«Ahora mismo» — прямо сейчас. Мягче, чем «no tengo trabajo».", "difficulty": "A2", "tags": ["work"] },
+    { "spanish": "¿Me lo puede explicar despacio?", "translation": "Можете объяснить медленно?", "example": "¿Me lo puede explicar despacio, por favor?", "exampleTranslation": "Объясните, пожалуйста, медленно.", "notes": "Спрашивайте столько раз, сколько нужно.", "difficulty": "A1", "tags": ["politeness", "survival"] },
+    { "spanish": "Gracias de corazón", "translation": "Спасибо от сердца", "example": "Gracias de corazón por su tiempo.", "exampleTranslation": "Искренне спасибо за ваше время.", "notes": "Тёплая благодарность, которую в Испании ценят.", "difficulty": "B1", "tags": ["politeness"] }
+  ]
+}

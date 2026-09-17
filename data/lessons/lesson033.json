@@ -1,0 +1,23 @@
+{
+  "lesson": 33,
+  "slug": "una-denuncia",
+  "title": "Una denuncia",
+  "subtitle": "Полиция: заявление и кража",
+  "category": "police",
+  "milestone": "documents",
+  "difficulty": "B1",
+  "tags": ["police", "problems", "documents"],
+  "summary": "Как подать заявление, описать кражу и понять вопросы полиции.",
+  "situation": "Комиссариат полиции (comisaría)",
+  "authorComment": "В Испании denuncia можно подать и онлайн, но лично — быстрее для иностранца. Говорите короткими фразами: времени, места, что пропало.",
+  "phrases": [
+    { "spanish": "Quiero poner una denuncia", "translation": "Я хочу подать заявление", "example": "Buenas tardes, quiero poner una denuncia.", "exampleTranslation": "Добрый день, я хочу подать заявление.", "notes": "Poner una denuncia — подать заявление. Ключевая фраза урока.", "difficulty": "B1", "tags": ["police"] },
+    { "spanish": "Me han robado el móvil", "translation": "У меня украли телефон", "example": "Me han robado el móvil en el metro.", "exampleTranslation": "У меня украли телефон в метро.", "notes": "«Me han robado» — у меня украли. Время: hace un rato, a las tres.", "difficulty": "B1", "tags": ["problems", "idioms"] },
+    { "spanish": "Ha pasado en la calle Mayor", "translation": "Это произошло на улице Майор", "example": "Ha pasado en la calle Mayor, cerca del banco.", "exampleTranslation": "Это случилось на улице Майор, рядом с банком.", "notes": "Pasar — происходить. «¿Qué ha pasado?» — что случилось?", "difficulty": "A2", "tags": ["police"] },
+    { "spanish": "No he visto al ladrón", "translation": "Я не видел вора", "example": "No he visto al ladrón, fue muy rápido.", "exampleTranslation": "Я не видел вора, всё произошло быстро.", "notes": "Ladrón — вор. Robo — кража.", "difficulty": "B1", "tags": ["police"] },
+    { "spanish": "Aquí están mis documentos", "translation": "Вот мои документы", "example": "Aquí están mis documentos y mi NIE.", "exampleTranslation": "Вот мои документы и NIE.", "notes": "Сотрудник попросит identificación сразу.", "difficulty": "A1", "tags": ["documents"] },
+    { "spanish": "¿Me da una copia de la denuncia?", "translation": "Дадите копию заявления?", "example": "¿Me da una copia de la denuncia para el seguro?", "exampleTranslation": "Дадите копию заявления для страховки?", "notes": "Копия нужна банку, страховой, иногда для работы.", "difficulty": "B1", "tags": ["documents"] },
+    { "spanish": "No entiendo la pregunta", "translation": "Я не понимаю вопрос", "example": "Perdona, no entiendo la pregunta.", "exampleTranslation": "Извините, я не понимаю вопрос.", "notes": "Спокойная фраза для сложной ситуации.", "difficulty": "A1", "tags": ["survival"] },
+    { "spanish": "Quiero denunciar también las tarjetas", "translation": "Хочу заявить и о картах", "example": "Quiero denunciar también las tarjetas del banco.", "exampleTranslation": "Хочу указать в заявлении и банковские карты.", "notes": "Denunciar — заявлять. Важно для блокировки счетов.", "difficulty": "B1", "tags": ["police", "bank"] }
+  ]
+}

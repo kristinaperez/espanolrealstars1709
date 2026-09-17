@@ -1,0 +1,23 @@
+{
+  "lesson": 16,
+  "slug": "tiene-cambio",
+  "title": "¿Tiene cambio?",
+  "subtitle": "Деньги, сдача и мелочь",
+  "category": "shopping",
+  "milestone": "groceries",
+  "difficulty": "A2",
+  "tags": ["shopping", "money", "payment"],
+  "summary": "Сдача, мелочь, купюра побольше, оплата телефоном — деньги в повседневных фразах.",
+  "situation": "Оплата на кассе и в маленьком магазине",
+  "authorComment": "Всегда проверяйте сдачу на месте: «¿Me ha dado el cambio bien?» звучит нормально и вежливо.",
+  "phrases": [
+    { "spanish": "¿Tiene cambio?", "translation": "У вас есть сдача? / можете разменять?", "example": "Tengo un billete de 50. ¿Tiene cambio?", "exampleTranslation": "У меня купюра 50. У вас найдётся сдача?", "notes": "Cambio — сдача и размен одновременно.", "difficulty": "A1", "tags": ["money"] },
+    { "spanish": "No tengo suelto", "translation": "У меня нет мелочи", "example": "Lo siento, no tengo suelto.", "exampleTranslation": "Извините, у меня нет мелких монет.", "notes": "Suelto — мелочь, разменные монеты. Очень испанское слово.", "difficulty": "B1", "tags": ["money"] },
+    { "spanish": "¿Puedo pagar con el móvil?", "translation": "Можно оплатить телефоном?", "example": "¿Puedo pagar con el móvil? No llevo tarjeta.", "exampleTranslation": "Могу заплатить телефоном? Карту не взял.", "notes": "Llevar — носить с собой. «No llevo efectivo» — нет наличных.", "difficulty": "A2", "tags": ["payment"] },
+    { "spanish": "Se me ha quedado la cartera", "translation": "Я забыл кошелёк", "example": "Perdona, se me ha quedado la cartera en casa.", "exampleTranslation": "Извините, я оставил кошелёк дома.", "notes": "«Se me ha quedado» — я оставил (не по своей вине).", "difficulty": "B1", "tags": ["idioms"] },
+    { "spanish": "Me sobran dos euros", "translation": "У меня лишние два евро / осталось два евро", "example": "Me sobran dos euros, se los dejo.", "exampleTranslation": "У меня осталось два евро, оставлю вам.", "notes": "Sobrar — оставаться лишним. Faltar — не хватать.", "difficulty": "B1", "tags": ["money"] },
+    { "spanish": "¿Cuánto es todo?", "translation": "Сколько всего?", "example": "¿Cuánto es todo junto?", "exampleTranslation": "Сколько всё вместе?", "notes": "Junto — вместе. Простой способ узнать итог.", "difficulty": "A1", "tags": ["money"] },
+    { "spanish": "Es demasiado caro", "translation": "Это слишком дорого", "example": "Perdona, pero es demasiado caro.", "exampleTranslation": "Извините, но это слишком дорого.", "notes": "Demasiado — слишком. Мягче: «es un poco caro para mí».", "difficulty": "A2", "tags": ["money", "shopping"] },
+    { "spanish": "Lo dejo, gracias", "translation": "Я это оставлю / не буду брать", "example": "Lo dejo, gracias. Vuelvo luego.", "exampleTranslation": "Не буду брать, спасибо. Зайду потом.", "notes": "Вежливый отказ от покупки.", "difficulty": "A1", "tags": ["shopping"] }
+  ]
+}

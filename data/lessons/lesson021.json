@@ -1,0 +1,23 @@
+{
+  "lesson": 21,
+  "slug": "pedir-cita",
+  "title": "Pedir cita",
+  "subtitle": "Записаться к врачу",
+  "category": "health",
+  "milestone": "doctor",
+  "difficulty": "A2",
+  "tags": ["health", "appointments", "phone calls"],
+  "summary": "Как позвонить в центр здоровья и записаться на приём.",
+  "situation": "Звонок в centro de salud",
+  "authorComment": "Сначала вас спросят: «¿Qué necesita?». Отвечайте коротко: «Quiero pedir cita con el médico». Это открывает любой разговор в медицине.",
+  "phrases": [
+    { "spanish": "Quiero pedir cita", "translation": "Я хочу записаться на приём", "example": "Buenos días, quiero pedir cita con el médico de cabecera.", "exampleTranslation": "Добрый день, я хочу записаться к терапевту.", "notes": "Pedir cita — записаться. Главная медицинская фраза.", "difficulty": "A2", "tags": ["appointments"] },
+    { "spanish": "Con el médico de cabecera", "translation": "К терапевту", "example": "Necesito cita con el médico de cabecera.", "exampleTranslation": "Мне нужен приём у терапевта.", "notes": "Médico de cabecera — семейный врач. Cabecera — «изголовье».", "difficulty": "B1", "tags": ["health"] },
+    { "spanish": "¿Tiene hueco hoy?", "translation": "Есть окошко сегодня?", "example": "¿Tiene hueco hoy por la tarde?", "exampleTranslation": "Есть окно сегодня вечером?", "notes": "Hueco — буквально «дырка», свободное место в расписании.", "difficulty": "B1", "tags": ["appointments", "idioms"] },
+    { "spanish": "Es urgente", "translation": "Это срочно", "example": "Es urgente, me duele mucho.", "exampleTranslation": "Это срочно, у меня очень болит.", "notes": "Urgente открывает двери. Но используйте по делу.", "difficulty": "A1", "tags": ["health"] },
+    { "spanish": "No puedo ir a esa hora", "translation": "Я не могу в это время", "example": "Perdona, no puedo ir a esa hora, trabajo.", "exampleTranslation": "Извините, не могу в это время, я работаю.", "notes": "Простая фраза для переноса приёма.", "difficulty": "A1", "tags": ["appointments"] },
+    { "spanish": "¿Me lo puede adelantar?", "translation": "Можете назначить пораньше?", "example": "¿Me lo puede adelantar un día?", "exampleTranslation": "Можете передвинуть на день раньше?", "notes": "Adelantar — приближать по времени. Aplazar — переносить позже.", "difficulty": "B1", "tags": ["appointments"] },
+    { "spanish": "Tengo la tarjeta sanitaria", "translation": "У меня есть медицинская карта", "example": "Tengo la tarjeta sanitaria, el número se lo doy.", "exampleTranslation": "У меня есть карта, дам вам номер.", "notes": "Tarjeta sanitaria — ваш главный медицинский документ.", "difficulty": "A2", "tags": ["health"] },
+    { "spanish": "¿A las doce me va bien", "translation": "В двенадцать мне подходит", "example": "A las doce me va bien, gracias.", "exampleTranslation": "В двенадцать мне подходит, спасибо.", "notes": "«Me va bien» — мне подходит. Работает везде.", "difficulty": "A1", "tags": ["time"] }
+  ]
+}

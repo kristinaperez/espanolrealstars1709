@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#ff5a3c"/>
+  <rect x="28" y="28" width="456" height="456" rx="92" fill="#ffc53d" opacity="0.22"/>
+  <text x="50%" y="52%" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="260" font-weight="800">¿?</text>
+  <text x="50%" y="82%" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="96" font-weight="800" fill="#ffe9c9">¡H!</text>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "lesson": 28,
+  "slug": "bloquear-la-tarjeta",
+  "title": "Bloquear la tarjeta",
+  "subtitle": "Проблемы: кража, блокировка, спорные списания",
+  "category": "bank",
+  "milestone": "bank",
+  "difficulty": "B1",
+  "tags": ["bank", "problems", "complaints"],
+  "summary": "Что говорить, когда карту украли, списали лишнее или произошла ошибка.",
+  "situation": "Звонок в банк по горячей линии",
+  "authorComment": "В экстренной ситуации нужны три фразы: quiero bloquear la tarjeta, me han robado, quiero reclamar. Остальное — детали.",
+  "phrases": [
+    { "spanish": "Quiero bloquear la tarjeta", "translation": "Я хочу заблокировать карту", "example": "¡Urgente! Quiero bloquear la tarjeta.", "exampleTranslation": "Срочно! Хочу заблокировать карту.", "notes": "Bloquear — блокировать. Первая фраза при краже.", "difficulty": "B1", "tags": ["problems", "bank"] },
+    { "spanish": "Me han robado la cartera", "translation": "У меня украли кошелёк", "example": "Me han robado la cartera con las tarjetas.", "exampleTranslation": "У меня украли кошелёк с картами.", "notes": "«Me han robado» — у меня украли. Конструкция обязательная к запоминанию.", "difficulty": "B1", "tags": ["problems", "idioms"] },
+    { "spanish": "Hay un cargo que no reconozco", "translation": "Есть списание, которое я не узнаваю", "example": "Hay un cargo de 80 euros que no reconozco.", "exampleTranslation": "Есть списание 80 евро, которое я не делал.", "notes": "El cargo — списание. Reconocer — узнавать, признавать.", "difficulty": "B1", "tags": ["complaints"] },
+    { "spanish": "Quiero reclamar", "translation": "Я хочу подать претензию", "example": "Quiero reclamar este cargo.", "exampleTranslation": "Я хочу оспорить это списание.", "notes": "Reclamar — предъявлять претензию. Ключ к защите прав в Испании.", "difficulty": "B1", "tags": ["complaints"] },
+    { "spanish": "¿Me lo pueden devolver?", "translation": "Мне могут это вернуть?", "example": "¿Me lo pueden devolver al saldo?", "exampleTranslation": "Можете вернуть это на счёт?", "notes": "Devolver — возвращать. «Me lo pueden devolver» — формула вежливого требования.", "difficulty": "B1", "tags": ["complaints", "politeness"] },
+    { "spanish": "Quiero poner una reclamación por escrito", "translation": "Я хочу подать письменную претензию", "example": "Quiero poner una reclamación por escrito, por favor.", "exampleTranslation": "Хочу подать претензию письменно.", "notes": "В банке есть готовые бланки reclamación. Не стесняйтесь просить.", "difficulty": "B2", "tags": ["complaints", "documents"] },
+    { "spanish": "¿Me da un número de referencia?", "translation": "Дадите номер обращения?", "example": "¿Me da un número de referencia de la reclamación?", "exampleTranslation": "Дадите номер моей претензии?", "notes": "Referencia — номер, код обращения. Обязательно фиксируйте.", "difficulty": "B1", "tags": ["complaints"] },
+    { "spanish": "Perdí el móvil con la app", "translation": "Я потерял телефон с приложением", "example": "Perdí el móvil con la app del banco.", "exampleTranslation": "Я потерял телефон с приложением банка.", "notes": "Perder — терять. Не забудьте также bloquear el móvil.", "difficulty": "B1", "tags": ["problems"] }
+  ]
+}

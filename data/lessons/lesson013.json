@@ -1,0 +1,23 @@
+{
+  "lesson": 13,
+  "slug": "en-el-supermercado",
+  "title": "En el supermercado",
+  "subtitle": "Супермаркет: купить всё и не растеряться",
+  "category": "shopping",
+  "milestone": "groceries",
+  "difficulty": "A1",
+  "tags": ["shopping", "food", "daily life"],
+  "summary": "Где найти продукты, попросить взвесить, спросить про наличие и понять вопросы на кассе.",
+  "situation": "Первый поход в Mercadona или Carrefour",
+  "authorComment": "На кассе всегда спрашивают: «¿Tiene tarjeta?» и «¿Quiere bolsa?». Эти два вопроса — весь испанский, который нужен для покупок.",
+  "phrases": [
+    { "spanish": "¿Dónde está el pan?", "translation": "Где хлеб?", "example": "Perdona, ¿dónde está el pan?", "exampleTranslation": "Извините, где хлеб?", "notes": "¿Dónde está...? — формула для любого супермаркета и магазина.", "difficulty": "A1", "tags": ["shopping"] },
+    { "spanish": "¿Tiene más en el almacén?", "translation": "У вас есть ещё на складе?", "example": "No veo yogures. ¿Tiene más en el almacén?", "exampleTranslation": "Не вижу йогуртов. Есть ещё на складе?", "notes": "Almacén — склад. Универсальный вопрос, когда полка пустая.", "difficulty": "B1", "tags": ["shopping"] },
+    { "spanish": "Lo quiero envasado", "translation": "Мне в упаковке / взвешенное", "example": "La carne, ¿la quiere envasada?", "exampleTranslation": "Мясо вам упаковать?", "notes": "Envasar — упаковывать. Спрашивают на развесном прилавке.", "difficulty": "B1", "tags": ["shopping"] },
+    { "spanish": "¿Me lo puede pesar?", "translation": "Можете взвесить?", "example": "¿Me lo puede pesar, por favor?", "exampleTranslation": "Взвесьте, пожалуйста.", "notes": "Pesar — взвешивать. На рынке взвешивает продавец.", "difficulty": "A2", "tags": ["shopping"] },
+    { "spanish": "¿Quiere una bolsa?", "translation": "Вам нужна сумка?", "example": "— ¿Quiere una bolsa? — Sí, una, gracias.", "exampleTranslation": "— Вам сумку? — Да, одну, спасибо.", "notes": "Стандартный вопрос кассира в Испании.", "difficulty": "A1", "tags": ["shopping"] },
+    { "spanish": "Tengo tarjeta del súper", "translation": "У меня есть карта магазина", "example": "Sí, tengo tarjeta del súper.", "exampleTranslation": "Да, у меня есть карта магазина.", "notes": "Карта скидок часто нужна для сниженных цен.", "difficulty": "A1", "tags": ["shopping"] },
+    { "spanish": "¿Aceptáis tarjeta?", "translation": "Вы принимаете карту?", "example": "Perdona, ¿aceptáis tarjeta?", "exampleTranslation": "Извините, вы принимаете карту?", "notes": "Aceptáis — множественное число «вы». Так говорят с несколькими продавцами.", "difficulty": "A2", "tags": ["payment"] },
+    { "spanish": "El ticket, por favor", "translation": "Чек, пожалуйста", "example": "¿Me da el ticket, por favor?", "exampleTranslation": "Дадите чек, пожалуйста?", "notes": "Ticket — чек (испанское заимствование). Также «el recibo».", "difficulty": "A1", "tags": ["shopping"] }
+  ]
+}

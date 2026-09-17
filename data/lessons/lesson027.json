@@ -1,0 +1,23 @@
+{
+  "lesson": 27,
+  "slug": "una-transferencia",
+  "title": "Una transferencia",
+  "subtitle": "Переводы и регулярные платежи",
+  "category": "bank",
+  "milestone": "bank",
+  "difficulty": "B1",
+  "tags": ["bank", "money", "bills"],
+  "summary": "Как сделать перевод, указать IBAN, настроить автоплатёж и подтвердить операцию.",
+  "situation": "Офис банка или приложение",
+  "authorComment": "В Испании всё живёт на recibos domiciliados: аренда, свет, интернет. Фраза «Quiero domiciliar los recibos» экономит вам часы.",
+  "phrases": [
+    { "spanish": "Quiero hacer una transferencia", "translation": "Я хочу сделать перевод", "example": "Quiero hacer una transferencia a otra cuenta.", "exampleTranslation": "Хочу сделать перевод на другой счёт.", "notes": "Hacer una transferencia — сделать перевод. Формула.", "difficulty": "B1", "tags": ["bank"] },
+    { "spanish": "Aquí tiene el IBAN", "translation": "Вот IBAN", "example": "Aquí tiene el IBAN, lo he traído escrito.", "exampleTranslation": "Вот IBAN, я принёс его записанным.", "notes": "IBAN начинается на ES в Испании. «Escrito» — записанный.", "difficulty": "B1", "tags": ["bank"] },
+    { "spanish": "¿Cuándo llega el dinero?", "translation": "Когда придут деньги?", "example": "¿Cuándo llega el dinero a la otra cuenta?", "exampleTranslation": "Когда деньги придут на другой счёт?", "notes": "Llegar — приходить, приезжать. Про деньги тоже.", "difficulty": "A2", "tags": ["bank", "time"] },
+    { "spanish": "Quiero domiciliar los recibos", "translation": "Я хочу подключить автоплатёж счетов", "example": "Quiero domiciliar los recibos del alquiler.", "exampleTranslation": "Хочу настроить автоплатёж за аренду.", "notes": "Domiciliar — подключать регулярное списание.", "difficulty": "B1", "tags": ["bills", "bank"] },
+    { "spanish": "No me ha llegado el recibo", "translation": "Счёт мне не пришёл", "example": "No me ha llegado el recibo de la luz.", "exampleTranslation": "Счёт за электричество не пришёл.", "notes": "«No me ha llegado» — мне не пришёл. Жалоба без агрессии.", "difficulty": "B1", "tags": ["bills", "complaints"] },
+    { "spanish": "Me han cobrado dos veces", "translation": "С меня списали дважды", "example": "Me han cobrado dos veces el mismo recibo.", "exampleTranslation": "С меня дважды списали один счёт.", "notes": "Cobrar — взимать, списывать. Главный глагол для жалоб.", "difficulty": "B1", "tags": ["complaints", "money"] },
+    { "spanish": "¿Me puede confirmar la operación?", "translation": "Можете подтвердить операцию?", "example": "¿Me puede confirmar la operación por escrito?", "exampleTranslation": "Можете подтвердить операцию письменно?", "notes": "Por escrito — письменно. Всегда просите подтверждение.", "difficulty": "B1", "tags": ["politeness", "bank"] },
+    { "spanish": "Firmo aquí, ¿verdad?", "translation": "Я подписываю здесь, верно?", "example": "Firmo aquí, ¿verdad?", "exampleTranslation": "Подпись здесь, да?", "notes": "«¿Verdad?» — короткое подтверждение в конце вопроса.", "difficulty": "A2", "tags": ["politeness"] }
+  ]
+}

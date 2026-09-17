@@ -1,0 +1,23 @@
+{
+  "lesson": 32,
+  "slug": "los-papeles",
+  "title": "Los papeles",
+  "subtitle": "Документы: универсальный словарь",
+  "category": "government",
+  "milestone": "documents",
+  "difficulty": "A2",
+  "tags": ["documents", "vocabulary", "government"],
+  "summary": "Copias, originales, sellado, firmado, traducido — слова, которые встречаются в каждой инстанции.",
+  "situation": "Подача документов в любое учреждение",
+  "authorComment": "«Los papeles» — так испанцы называют все документы сразу. Если не знаете слово — скажите «los papeles» и вас поймут.",
+  "phrases": [
+    { "spanish": "Una copia y el original", "translation": "Копия и оригинал", "example": "Le traigo una copia y el original.", "exampleTranslation": "Я принёс копию и оригинал.", "notes": "Copia — копия. Original — оригинал. Просят почти всегда.", "difficulty": "A1", "tags": ["documents"] },
+    { "spanish": "¿Está traducido?", "translation": "Это переведено?", "example": "¿Está traducido por un traductor jurado?", "exampleTranslation": "Перевод выполнен присяжным переводчиком?", "notes": "Traductor jurado — присяжный переводчик. Обязателен для документов.", "difficulty": "B1", "tags": ["documents"] },
+    { "spanish": "Está sellado", "translation": "Это с печатью / заверено", "example": "El documento está sellado por el ayuntamiento.", "exampleTranslation": "Документ заверен муниципалитетом.", "notes": "Sellar — ставить печать. El sello — печать, штамп.", "difficulty": "B1", "tags": ["documents"] },
+    { "spanish": "Falta la firma", "translation": "Не хватает подписи", "example": "Falta la firma del propietario.", "exampleTranslation": "Не хватает подписи владельца.", "notes": "La firma — подпись. Firmar — подписывать.", "difficulty": "A2", "tags": ["documents"] },
+    { "spanish": "Se ha caducado", "translation": "Истёк срок", "example": "Mi pasaporte se ha caducado.", "exampleTranslation": "Срок моего паспорта истёк.", "notes": "Caducar — истекать. Также «ha vencido».", "difficulty": "B2", "tags": ["documents", "problems"] },
+    { "spanish": "Está en vigor", "translation": "Действителен", "example": "El certificado está en vigor.", "exampleTranslation": "Справка действительна.", "notes": "En vigor — в силе. Официальная формула.", "difficulty": "B2", "tags": ["documents"] },
+    { "spanish": "¿Me hace una copia?", "translation": "Сделаете мне копию?", "example": "¿Me hace una copia de este papel?", "exampleTranslation": "Сделаете копию этого документа?", "notes": "Hacer una copia — сделать копию. Просят в любом офисе.", "difficulty": "A1", "tags": ["politeness", "documents"] },
+    { "spanish": "Todos los papeles están aquí", "translation": "Все документы здесь", "example": "Mire, todos los papeles están aquí.", "exampleTranslation": "Смотрите, все документы здесь.", "notes": "Фраза, которая завершает подготовку.", "difficulty": "A1", "tags": ["documents"] }
+  ]
+}

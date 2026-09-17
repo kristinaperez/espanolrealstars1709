@@ -1,0 +1,23 @@
+{
+  "lesson": 23,
+  "slug": "la-receta",
+  "title": "La receta",
+  "subtitle": "Рецепт и аптека",
+  "category": "health",
+  "milestone": "doctor",
+  "difficulty": "A2",
+  "tags": ["health", "pharmacy", "instructions"],
+  "summary": "Понять рецепт, купить лекарство и узнать, как его принимать.",
+  "situation": "Аптека (farmacia)",
+  "authorComment": "Аптека в Испании — место, где можно спросить совет. Фраза «¿Tiene algo para...?» решает половину бытовых проблем.",
+  "phrases": [
+    { "spanish": "Tengo esta receta", "translation": "У меня есть этот рецепт", "example": "Buenas tardes, tengo esta receta del médico.", "exampleTranslation": "Добрый день, у меня рецепт от врача.", "notes": "La receta — рецепт. Также «la receta médica».", "difficulty": "A1", "tags": ["pharmacy"] },
+    { "spanish": "¿Tiene algo para el dolor?", "translation": "У вас есть что-нибудь от боли?", "example": "¿Tiene algo para el dolor de cabeza?", "exampleTranslation": "Есть что-то от головной боли?", "notes": "Универсальная аптекарская формула: algo para + проблема.", "difficulty": "A1", "tags": ["pharmacy"] },
+    { "spanish": "¿Cómo se toma?", "translation": "Как это принимать?", "example": "¿Cómo se toma, con comida?", "exampleTranslation": "Как принимать, с едой?", "notes": "Tomar — принимать лекарство. Используйте именно это слово.", "difficulty": "A1", "tags": ["instructions"] },
+    { "spanish": "Cada ocho horas", "translation": "Каждые восемь часов", "example": "Una pastilla cada ocho horas.", "exampleTranslation": "Одна таблетка каждые восемь часов.", "notes": "Cada + время — каждые. Cada día — каждый день.", "difficulty": "A1", "tags": ["instructions", "time"] },
+    { "spanish": "¿Necesito receta para esto?", "translation": "На это нужен рецепт?", "example": "¿Necesito receta para este medicamento?", "exampleTranslation": "Это лекарство по рецепту?", "notes": "Часть лекарств в Испании только con receta.", "difficulty": "A2", "tags": ["pharmacy"] },
+    { "spanish": "El genérico, por favor", "translation": "Дженерик, пожалуйста", "example": "¿Tiene el genérico? Es más barato.", "exampleTranslation": "Есть дженерик? Он дешевле.", "notes": "Genérico — аналог. Способ сэкономить.", "difficulty": "B1", "tags": ["pharmacy", "money"] },
+    { "spanish": "Me lo lleva la seguridad social", "translation": "Это покрывает страховка", "example": "¿Me lo paga la seguridad social?", "exampleTranslation": "Это оплачивает социальная страховка?", "notes": "Seguridad social — система госстрахования. Cobertura — покрытие.", "difficulty": "B1", "tags": ["health", "money"] },
+    { "spanish": "¿Cuánto tarda en hacer efecto?", "translation": "Через сколько подействует?", "example": "¿Cuánto tarda en hacer efecto?", "exampleTranslation": "Через какое время будет эффект?", "notes": "Hacer efecto — подействовать. Мощная фраза для аптеки.", "difficulty": "B1", "tags": ["instructions"] }
+  ]
+}

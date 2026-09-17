@@ -1,0 +1,23 @@
+{
+  "lesson": 26,
+  "slug": "el-cajero",
+  "title": "El cajero",
+  "subtitle": "Банкомат: снять, вставить, код",
+  "category": "bank",
+  "milestone": "bank",
+  "difficulty": "A2",
+  "tags": ["bank", "money", "problems"],
+  "summary": "Все слова банкомата и что делать, если он съел карту.",
+  "situation": "Банкомат на улице вечером",
+  "authorComment": "Банкомат говорит с вами словами: retirar, importe, saldo, PIN. Учитесь читать экран — это самый короткий урок языка.",
+  "phrases": [
+    { "spanish": "Quiero retirar dinero", "translation": "Я хочу снять деньги", "example": "Quiero retirar cien euros.", "exampleTranslation": "Я хочу снять сто евро.", "notes": "Retirar — снимать (деньги). Sacar — тоже, более разговорно.", "difficulty": "A2", "tags": ["bank", "money"] },
+    { "spanish": "No funciona el cajero", "translation": "Банкомат не работает", "example": "El cajero no funciona, se ha quedado la tarjeta.", "exampleTranslation": "Банкомат не работает, карточка застряла.", "notes": "«Se ha quedado» — застряла/осталась внутри.", "difficulty": "A2", "tags": ["problems"] },
+    { "spanish": "Se ha quedado mi tarjeta", "translation": "Мою карту зажевало", "example": "¡Se ha quedado mi tarjeta dentro!", "exampleTranslation": "Мою карту зажевало внутри!", "notes": "Фраза для экстренного случая. Говорите быстро и громко.", "difficulty": "B1", "tags": ["problems", "bank"] },
+    { "spanish": "¿Cuál es mi saldo?", "translation": "Какой у меня баланс?", "example": "Quiero consultar el saldo.", "exampleTranslation": "Хочу посмотреть баланс.", "notes": "Consultar el saldo — проверить баланс. El saldo — остаток.", "difficulty": "B1", "tags": ["bank"] },
+    { "spanish": "El importe máximo", "translation": "Максимальная сумма", "example": "¿Cuál es el importe máximo al día?", "exampleTranslation": "Какой максимум в день?", "notes": "Importe — сумма. Лимит — el límite.", "difficulty": "B1", "tags": ["money"] },
+    { "spanish": "Me ha salido sin dinero", "translation": "Он мне не выдал денег", "example": "El cajero me ha salido sin dinero.", "exampleTranslation": "Банкомат денег не выдал.", "notes": "«Me ha salido» — буквально «мне вышло». Так описывают результат.", "difficulty": "B1", "tags": ["problems"] },
+    { "spanish": "Sin comisión", "translation": "Без комиссии", "example": "¿Puedo sacar sin comisión en este cajero?", "exampleTranslation": "Могу снять без комиссии в этом банкомате?", "notes": "Комиссия зависит от банка-владельца банкомата.", "difficulty": "A2", "tags": ["money"] },
+    { "spanish": "Se me ha olvidado el PIN", "translation": "Я забыл PIN", "example": "Se me ha olvidado el PIN, ¿qué hago?", "exampleTranslation": "Я забыл PIN, что делать?", "notes": "«Se me ha olvidado» — я забыл (не специально). Учитесь как формулу.", "difficulty": "B1", "tags": ["problems", "idioms"] }
+  ]
+}

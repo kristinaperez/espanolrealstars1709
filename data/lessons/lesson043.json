@@ -1,0 +1,23 @@
+{
+  "lesson": 43,
+  "slug": "en-el-colegio",
+  "title": "En el colegio",
+  "subtitle": "Школа детей: разговор с учителем",
+  "category": "school",
+  "milestone": "belonging",
+  "difficulty": "B1",
+  "tags": ["school", "family", "appointments"],
+  "summary": "Как поговорить с учителем, понять заметки в дневнике и записаться на собрание.",
+  "situation": "Родительское собрание в школе",
+  "authorComment": "Родителю нужно 10 фраз, чтобы участвовать в школьной жизни ребёнка. Это уважение к школе — и ребёнку легче.",
+  "phrases": [
+    { "spanish": "Soy el padre de Dani", "translation": "Я отец Дани", "example": "Buenas tardes, soy el padre de Dani, de 3º A.", "exampleTranslation": "Добрый день, я отец Дани из 3º A.", "notes": "«El padre / la madre de...» — стандартное представление родителя.", "difficulty": "A1", "tags": ["family", "school"] },
+    { "spanish": "¿Cómo va en clase?", "translation": "Как он учится / как дела в классе?", "example": "¿Cómo va en clase, está atento?", "exampleTranslation": "Как он в классе, внимательный?", "notes": "«¿Cómo va?» — как идёт. Универсальный вопрос о прогрессе.", "difficulty": "A2", "tags": ["school", "questions"] },
+    { "spanish": "Necesito hablar con el tutor", "translation": "Мне нужно поговорить с классным руководителем", "example": "Necesito hablar con el tutor, ¿cuándo puede?", "exampleTranslation": "Нужно поговорить с классным руководителем, когда удобно?", "notes": "Tutor — классный руководитель в испанской школе.", "difficulty": "B1", "tags": ["appointments", "school"] },
+    { "spanish": "No entiendo la nota", "translation": "Я не понимаю оценку", "example": "Perdona, no entiendo la nota del examen.", "exampleTranslation": "Извините, я не понимаю оценку за экзамен.", "notes": "La nota — оценка. También «las notas» — табель.", "difficulty": "A2", "tags": ["school"] },
+    { "spanish": "Le cuesta el idioma", "translation": "Ему трудно с языком", "example": "Le cuesta el idioma, sobre todo escribir.", "exampleTranslation": "Ему тяжело с языком, особенно письмо.", "notes": "Costar — стоить усилий. «Me cuesta» — мне тяжело.", "difficulty": "B2", "tags": ["school", "idioms"] },
+    { "spanish": "Hay una reunión de padres", "translation": "Есть родительское собрание", "example": "¿Cuándo hay una reunión de padres?", "exampleTranslation": "Когда родительское собрание?", "notes": "Reunión de padres — собрание. Aviso — уведомление.", "difficulty": "B1", "tags": ["school"] },
+    { "spanish": "Lo apunto en el calendario", "translation": "Я запишу в календарь", "example": "Perfecto, lo apunto en el calendario.", "exampleTranslation": "Отлично, записываю в календарь.", "notes": "Anotar / apuntar — записывать. Оба глагола живут в Испании.", "difficulty": "B1", "tags": ["daily life"] },
+    { "spanish": "Gracias por su paciencia con él", "translation": "Спасибо за терпение к нему", "example": "Gracias por su paciencia con él, de verdad.", "exampleTranslation": "Спасибо за терпение к нему, правда.", "notes": "Фраза, которую учителя слышат редко — и очень ценят.", "difficulty": "B1", "tags": ["politeness", "school"] }
+  ]
+}

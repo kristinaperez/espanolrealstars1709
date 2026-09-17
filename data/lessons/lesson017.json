@@ -1,0 +1,23 @@
+{
+  "lesson": 17,
+  "slug": "el-autobus",
+  "title": "El autobús",
+  "subtitle": "Автобус: билет, остановка, маршруты",
+  "category": "transport",
+  "milestone": "transport",
+  "difficulty": "A1",
+  "tags": ["transport", "numbers", "directions"],
+  "summary": "Купить билет у водителя, спросить, идёт ли автобус туда, и не пропустить свою остановку.",
+  "situation": "Остановка автобуса в незнакомом районе",
+  "authorComment": "Водитель скажет: «No pasa por aquí» или «Se baja en la próxima». Учитесь слушать ключевые слова: línea, parada, dirección.",
+  "phrases": [
+    { "spanish": "Un billete, por favor", "translation": "Один билет, пожалуйста", "example": "Buenos días, un billete al centro, por favor.", "exampleTranslation": "Добрый день, один билет в центр, пожалуйста.", "notes": "Billete — билет. В Мадриде также «un sencillo».", "difficulty": "A1", "tags": ["transport"] },
+    { "spanish": "¿Va al centro?", "translation": "Он идёт в центр?", "example": "Perdona, ¿este autobús va al centro?", "exampleTranslation": "Извините, этот автобус идёт в центр?", "notes": "Ir a — идти/ехать куда-то.Главный вопрос на остановке.", "difficulty": "A1", "tags": ["directions"] },
+    { "spanish": "¿Para en la plaza?", "translation": "Он останавливается на площади?", "example": "¿Para en la plaza de España?", "exampleTranslation": "Он останавливается у площади Испании?", "notes": "Parar — останавливаться. La parada — остановка.", "difficulty": "A2", "tags": ["transport"] },
+    { "spanish": "¿Cuántas paradas hay?", "translation": "Сколько остановок?", "example": "¿Cuántas paradas hay hasta el hospital?", "exampleTranslation": "Сколько остановок до больницы?", "notes": "Отличный способ понять, где выйти.", "difficulty": "A1", "tags": ["numbers"] },
+    { "spanish": "¿Me avisa cuando lleguemos?", "translation": "Скажете, когда приедем?", "example": "¿Me avisa cuando lleguemos, por favor?", "exampleTranslation": "Подскажите, пожалуйста, когда будем на месте?", "notes": "«Cuando lleguemos» — subjuntivo. Выучите как готовую формулу.", "difficulty": "B1", "tags": ["transport", "politeness"] },
+    { "spanish": "Es la próxima", "translation": "Это следующая", "example": "¿Es aquí? — No, es la próxima.", "exampleTranslation": "Это здесь? — Нет, следующая.", "notes": "Próxima / siguiente — следующая. Anterior — предыдущая.", "difficulty": "A1", "tags": ["transport"] },
+    { "spanish": "Tengo que bajar aquí", "translation": "Мне нужно выйти здесь", "example": "Perdona, tengo que bajar aquí.", "exampleTranslation": "Извините, мне нужно выйти здесь.", "notes": "Bajar — выходить из транспорта. Subir — садиться.", "difficulty": "A1", "tags": ["transport"] },
+    { "spanish": "¿Dónde puedo comprar un bono?", "translation": "Где можно купить проездной?", "example": "¿Dónde puedo comprar un bono de autobús?", "exampleTranslation": "Где купить проездной на автобус?", "notes": "Bono / abono transporte — проездной. В каждом городе свой.", "difficulty": "A2", "tags": ["transport", "shopping"] }
+  ]
+}

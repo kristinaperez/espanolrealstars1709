@@ -1,0 +1,23 @@
+{
+  "lesson": 18,
+  "slug": "el-metro",
+  "title": "El metro",
+  "subtitle": "Метро: линии, пересадки, входы",
+  "category": "transport",
+  "milestone": "transport",
+  "difficulty": "A1",
+  "tags": ["transport", "directions"],
+  "summary": "Пересадки, направление, турникеты и карточка на метро.",
+  "situation": "Метро в Мадриде или Барселоне",
+  "authorComment": "Всегда уточняйте направление по последней станции линии: «¿Dirección Cuatro Caminos?» — так вы никогда не поедете не туда.",
+  "phrases": [
+    { "spanish": "¿Qué línea cojo?", "translation": "Какую линию мне взять?", "example": "Para ir a Sol, ¿qué línea cojo?", "exampleTranslation": "Чтобы доехать до Sol, какую линию взять?", "notes": "Coger — брать. Очень испанский глагол, используют постоянно.", "difficulty": "A1", "tags": ["transport"] },
+    { "spanish": "Tengo que hacer transbordo", "translation": "Мне нужно сделать пересадку", "example": "Tengo que hacer transbordo en Plaza de Castilla.", "exampleTranslation": "Мне нужно пересесть на Plaza de Castilla.", "notes": "Transbordo — пересадка. Объявляют в каждом поезде.", "difficulty": "A2", "tags": ["transport"] },
+    { "spanish": "¿Es esta la línea gris?", "translation": "Это серая линия?", "example": "Perdona, ¿es esta la línea gris?", "exampleTranslation": "Извините, это серая ветка?", "notes": "Линии называют по цвету и номеру: la línea 10, la gris.", "difficulty": "A1", "tags": ["transport"] },
+    { "spanish": "Voy en dirección contraria", "translation": "Я еду в обратную сторону", "example": "Uy, voy en dirección contraria.", "exampleTranslation": "Ой, я еду не в ту сторону.", "notes": "«En dirección contraria» — в противоположном направлении.", "difficulty": "A2", "tags": ["transport"] },
+    { "spanish": "¿Dónde está la salida?", "translation": "Где выход?", "example": "¿Dónde está la salida a la calle?", "exampleTranslation": "Где выход на улицу?", "notes": "Salida — выход. По указателям ищите слово salida.", "difficulty": "A1", "tags": ["directions"] },
+    { "spanish": "La tarjeta no funciona", "translation": "Карта не работает", "example": "La tarjeta no funciona, no pasa el torno.", "exampleTranslation": "Карта не работает, турникет не пропускает.", "notes": "Torno — турникет. Фраза нужна у каждых ворот метро.", "difficulty": "A1", "tags": ["transport", "problems"] },
+    { "spanish": "¿Me recarga la tarjeta?", "translation": "Пополните мне карту?", "example": "¿Me recarga la tarjeta con diez euros?", "exampleTranslation": "Положите на карту десять евро?", "notes": "Recargar — пополнять. Говорят в кассе метро.", "difficulty": "A2", "tags": ["transport", "money"] },
+    { "spanish": "Andén correcto", "translation": "Правильная платформа", "example": "¿Es este el andén correcto?", "exampleTranslation": "Это нужная платформа?", "notes": "Andén — платформа. Слово с табличек в метро.", "difficulty": "B1", "tags": ["transport"] }
+  ]
+}

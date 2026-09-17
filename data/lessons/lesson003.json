@@ -1,0 +1,23 @@
+{
+  "lesson": 3,
+  "slug": "no-entiendo",
+  "title": "No entiendo",
+  "subtitle": "Фразы выживания: переспросить и понять",
+  "category": "daily-life",
+  "milestone": "first-days",
+  "difficulty": "A1",
+  "tags": ["survival", "politeness", "daily life"],
+  "summary": "Что говорить, когда испанский говорят слишком быстро. Эти фразы спасают в первые недели в стране.",
+  "situation": "Разговор в магазине или по телефону, когда вы ничего не поняли",
+  "authorComment": "Не кивайте, если не поняли. Одна фраза «¿Puede repetir, por favor?» экономит часы недопонимания.",
+  "phrases": [
+    { "spanish": "No entiendo", "translation": "Я не понимаю", "example": "Perdona, no entiendo.", "exampleTranslation": "Извините, я не понимаю.", "notes": "Мягче: «No le entiendo» — я не понимаю именно вас.", "difficulty": "A1", "tags": ["survival"] },
+    { "spanish": "¿Puede repetir, por favor?", "translation": "Повторите, пожалуйста", "example": "¿Puede repetir, por favor? Más despacio.", "exampleTranslation": "Повторите, пожалуйста. Помедленнее.", "notes": "Ключевая фраза курса. Говорите её смело и без извинений.", "difficulty": "A1", "tags": ["politeness"] },
+    { "spanish": "Más despacio, por favor", "translation": "Помедленнее, пожалуйста", "example": "¿Me lo puede decir más despacio, por favor?", "exampleTranslation": "Можете сказать это помедленнее, пожалуйста?", "notes": "Despacio — медленно. Не путайте con «tarde».", "difficulty": "A1", "tags": ["survival"] },
+    { "spanish": "¿Cómo se dice...?", "translation": "Как говорится / как сказать...?", "example": "¿Cómo se dice «клюшка» en español?", "exampleTranslation": "Как сказать «клюшка» по-испански?", "notes": "Универсальный способ узнать слово. «Se dice» — безличная форма.", "difficulty": "A1", "tags": ["survival"] },
+    { "spanish": "Estoy aprendiendo español", "translation": "Я учу испанский", "example": "Estoy aprendiendo español, lo siento.", "exampleTranslation": "Я учу испанский, извините.", "notes": "Эта фраза мгновенно меняет отношение собеседника.", "difficulty": "A1", "tags": ["daily life"] },
+    { "spanish": "¿Habla inglés?", "translation": "Вы говорите по-английски?", "example": "Perdona, ¿habla usted inglés?", "exampleTranslation": "Извините, вы говорите по-английски?", "notes": "В Испании английский знают не все — не рассчитывайте только на него.", "difficulty": "A1", "tags": ["survival"] },
+    { "spanish": "¿Me lo puede escribir?", "translation": "Можете это написать?", "example": "No entiendo, ¿me lo puede escribir?", "exampleTranslation": "Я не понимаю, можете это написать?", "notes": "Очень полезно в банке и в миграционной службе.", "difficulty": "A2", "tags": ["politeness"] },
+    { "spanish": "¿Qué significa esto?", "translation": "Что это значит?", "example": "Esta palabra... ¿qué significa esto?", "exampleTranslation": "Это слово... что оно значит?", "notes": "Значение — «el significado».", "difficulty": "A1", "tags": ["survival"] }
+  ]
+}

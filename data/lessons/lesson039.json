@@ -1,0 +1,23 @@
+{
+  "lesson": 39,
+  "slug": "quedar-con-la-gente",
+  "title": "Quedar con la gente",
+  "subtitle": "Договориться о встрече",
+  "category": "social",
+  "milestone": "friends",
+  "difficulty": "A2",
+  "tags": ["social", "making plans", "friends"],
+  "summary": "Как предложить планы, согласиться, перенести и уточнить место встречи.",
+  "situation": "Переписка и разговор с новыми знакомыми",
+  "authorComment": "Quedar — главное слово испанской дружбы. «¿Quedamos?» означает «давай встретимся». Отвечайте «¡Vale, quedamos!».",
+  "phrases": [
+    { "spanish": "¿Quedamos esta semana?", "translation": "Встретимся на этой неделе?", "example": "¿Quedamos esta semana para un café?", "exampleTranslation": "Встретимся на этой неделе на кофе?", "notes": "Quedar — договариваться о встрече. Самое важное социальное слово.", "difficulty": "A2", "tags": ["making plans"] },
+    { "spanish": "¿Te viene bien el jueves?", "translation": "Тебе удобно в четверг?", "example": "¿Te viene bien el jueves por la tarde?", "exampleTranslation": "Тебе удобно в четверг вечером?", "notes": "«Venir bien» — подходить (о времени). Очень частая фраза.", "difficulty": "B1", "tags": ["time", "making plans"] },
+    { "spanish": "Vale, quedamos a las siete", "translation": "Договорились, в семь", "example": "Vale, quedamos a las siete en la plaza.", "exampleTranslation": "Ок, встречаемся в семь на площади.", "notes": "Vale — самое испанское слово. Означает «ладно, ок, да».", "difficulty": "A1", "tags": ["making plans"] },
+    { "spanish": "¿Dónde nos vemos?", "translation": "Где встречаемся?", "example": "¿Dónde nos vemos exactamente?", "exampleTranslation": "Где именно встречаемся?", "notes": "Verse — видеться. Nos vemos — увидимся.", "difficulty": "A1", "tags": ["making plans"] },
+    { "spanish": "Llego cinco minutos tarde", "translation": "Я опоздаю на пять минут", "example": "Perdona, llego cinco minutos tarde.", "exampleTranslation": "Извини, опоздаю минут на пять.", "notes": "Llegar tarde — опаздывать. Испанцы говорят это часто.", "difficulty": "A1", "tags": ["time", "social"] },
+    { "spanish": "Te invito", "translation": "Я угощаю", "example": "Esta vez te invito yo.", "exampleTranslation": "В этот раз угощаю я.", "notes": "Invitar — приглашать и угощать. «Te invito a un café».", "difficulty": "A1", "tags": ["social", "money"] },
+    { "spanish": "Lo paso muy bien", "translation": "Мне очень хорошо (с вами)", "example": "Lo paso muy bien con vosotros.", "exampleTranslation": "Мне очень хорошо с вами.", "notes": "Pasar bien — хорошо проводить время. Основная фраза благодарности.", "difficulty": "A2", "tags": ["social"] },
+    { "spanish": "Repetimos pronto", "translation": "Давайте скоро повторим", "example": "Repetimos pronto, ¿vale?", "exampleTranslation": "Давайте скоро снова соберёмся, хорошо?", "notes": "Repetir — повторять. Тёплое завершение встречи.", "difficulty": "B1", "tags": ["social"] }
+  ]
+}

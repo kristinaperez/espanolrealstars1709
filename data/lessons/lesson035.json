@@ -1,0 +1,23 @@
+{
+  "lesson": 35,
+  "slug": "buscar-trabajo",
+  "title": "Buscar trabajo",
+  "subtitle": "Поиск работы и первый звонок",
+  "category": "work",
+  "milestone": "work",
+  "difficulty": "B1",
+  "tags": ["work", "phone calls", "job search"],
+  "summary": "Как позвонить по вакансии, спросить об условиях и сказать о своём уровне испанского.",
+  "situation": "Звонок по объявлению о работе",
+  "authorComment": "Работодатель спросит: «¿Tienes papeles?», «¿Cuándo puedes empezar?» и «¿Cómo hablas español?». Подготовьте три ответа заранее.",
+  "phrases": [
+    { "spanish": "Llamo por el anuncio de trabajo", "translation": "Я звоню по объявлению о работе", "example": "Buenas tardes, llamo por el anuncio de trabajo.", "exampleTranslation": "Добрый день, звоню по объявлению о работе.", "notes": "Начало разговора. Дальше вас спросят имя и опыт.", "difficulty": "B1", "tags": ["job search", "phone calls"] },
+    { "spanish": "¿Sigue la vacante?", "translation": "Вакансия ещё открыта?", "example": "¿Sigue la vacante o ya está cubierta?", "exampleTranslation": "Вакансия ещё открыта или уже занята?", "notes": "Cubierta — занята. Так отвечают, если место уже закрыли.", "difficulty": "B1", "tags": ["job search"] },
+    { "spanish": "Tengo papeles", "translation": "У меня есть документы на работу", "example": "Tengo papeles, NIE y seguridad social.", "exampleTranslation": "У меня всё в порядке: NIE и соцстрахование.", "notes": "«Tener papeles» — разговорное «есть разрешение на работу».", "difficulty": "B1", "tags": ["work", "documents"] },
+    { "spanish": "Puedo empezar ya", "translation": "Я могу начать сразу", "example": "Puedo empezar ya, mañana mismo.", "exampleTranslation": "Могу начать прямо сейчас, хоть завтра.", "notes": "Ya — сразу. Сильный аргумент для работодателя.", "difficulty": "A2", "tags": ["work"] },
+    { "spanish": "Tengo experiencia", "translation": "У меня есть опыт", "example": "Tengo tres años de experiencia en cocina.", "exampleTranslation": "У меня три года опыта на кухне.", "notes": "Experiencia en + сфера. Простая и убедительная фраза.", "difficulty": "A2", "tags": ["work"] },
+    { "spanish": "Hablo español, pero cometo errores", "translation": "Я говорю по-испански, но делаю ошибки", "example": "Hablo español, pero cometo errores, ¿vale?", "exampleTranslation": "Я говорю по-испански, но с ошибками, хорошо?", "notes": "Честная фраза, которая вызывает доверие и снимает напряжение.", "difficulty": "B1", "tags": ["work", "conversation"] },
+    { "spanish": "¿Cuáles son las condiciones?", "translation": "Какие условия?", "example": "¿Cuáles son las condiciones: horario y salario?", "exampleTranslation": "Какие условия: график и зарплата?", "notes": "Condiciones — условия. Horario — график, salario — зарплата.", "difficulty": "B1", "tags": ["work", "money"] },
+    { "spanish": "¿Puedo enviar el currículum?", "translation": "Могу отправить резюме?", "example": "¿Puedo enviar el currículum por correo?", "exampleTranslation": "Могу прислать резюме по почте?", "notes": "Currículum или CV. Correo — почта (и имейл тоже).", "difficulty": "A2", "tags": ["job search"] }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 20,
+  "slug": "cercanias",
+  "title": "El cercanías",
+  "subtitle": "Пригородные поезда и билеты Renfe",
+  "category": "transport",
+  "milestone": "transport",
+  "difficulty": "A2",
+  "tags": ["transport", "time", "tickets"],
+  "summary": "Пригородный поезд: расписание, платформа, билет туда-обратно, опоздания.",
+  "situation": "Вокзал cercanías, поездка в пригород",
+  "authorComment": "На вокзале звучат три слова: andén, horario, retraso. Выучите их — и вокзал перестанет быть страшным.",
+  "phrases": [
+    { "spanish": "Un billete de ida y vuelta", "translation": "Билет туда и обратно", "example": "Un billete de ida y vuelta a Alcalá, por favor.", "exampleTranslation": "Билет туда-обратно до Алкалы, пожалуйста.", "notes": "Ida — туда, vuelta — обратно. Только ida = в одну сторону.", "difficulty": "A2", "tags": ["tickets"] },
+    { "spanish": "¿A qué hora sale el próximo?", "translation": "Во сколько отправляется следующий?", "example": "¿A qué hora sale el próximo tren?", "exampleTranslation": "Во сколько следующий поезд?", "notes": "«¿A qué hora...?» — главный вопрос про время в Испании.", "difficulty": "A1", "tags": ["time"] },
+    { "spanish": "¿Desde qué andén sale?", "translation": "С какой платформы отправление?", "example": "¿Desde qué andén sale el de Guadalajara?", "exampleTranslation": "С какой платформы поезд на Гвадалахару?", "notes": "Desde — из, с. Andén — платформа.", "difficulty": "A2", "tags": ["transport"] },
+    { "spanish": "El tren lleva retraso", "translation": "Поезд опаздывает", "example": "El tren lleva veinte minutos de retraso.", "exampleTranslation": "Поезд опаздывает на двадцать минут.", "notes": "Llevar retraso — «нести задержку». Так говорят о любых опозданиях.", "difficulty": "B1", "tags": ["time", "idioms"] },
+    { "spanish": "Perdí el tren", "translation": "Я опоздал на поезд", "example": "Perdí el tren de las ocho.", "exampleTranslation": "Я пропустил восьмичасовой поезд.", "notes": "Perder — терять и опаздывать. «Perder el tren».", "difficulty": "A2", "tags": ["time"] },
+    { "spanish": "¿Tengo que validar el billete?", "translation": "Мне нужно компостировать билет?", "example": "¿Tengo que validar el billete antes de subir?", "exampleTranslation": "Нужно прокомпостировать билет до посадки?", "notes": "Validar — компостировать, активировать. В cercanías билет нужно прожать.", "difficulty": "B1", "tags": ["tickets"] },
+    { "spanish": "Este asiento está libre", "translation": "Это место свободно", "example": "Perdona, ¿este asiento está libre?", "exampleTranslation": "Извините, это место свободно?", "notes": "Asiento — место, сиденье. Libre — свободно.", "difficulty": "A1", "tags": ["transport"] },
+    { "spanish": "Se baja en la siguiente", "translation": "Выходите на следующей", "example": "Para el hospital, se baja en la siguiente.", "exampleTranslation": "До больницы выходите на следующей.", "notes": "Ответ, который вы услышите от любого попутчика.", "difficulty": "A2", "tags": ["transport"] }
+  ]
+}

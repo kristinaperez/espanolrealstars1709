@@ -1,0 +1,23 @@
+{
+  "lesson": 41,
+  "slug": "hablar-de-ti",
+  "title": "Hablar de ti",
+  "subtitle": "Рассказ о себе",
+  "category": "social",
+  "milestone": "friends",
+  "difficulty": "A2",
+  "tags": ["social", "conversation", "biography"],
+  "summary": "Откуда вы, сколько в Испании, чем занимаетесь — короткий рассказ о себе.",
+  "situation": "Знакомство на вечеринке или в баре",
+  "authorComment": "Ваш рассказ о себе — это 5 фраз. Выучите их как блок, и вы будете звучать уверенно на любом знакомстве.",
+  "phrases": [
+    { "spanish": "Soy de Rusia", "translation": "Я из России", "example": "Soy de Rusia, de San Petersburgo.", "exampleTranslation": "Я из России, из Санкт-Петербурга.", "notes": "Ser de — быть из. Дальше можно назвать город.", "difficulty": "A1", "tags": ["biography"] },
+    { "spanish": "Llevo dos años aquí", "translation": "Я здесь два года", "example": "Llevo dos años aquí, en Valencia.", "exampleTranslation": "Я здесь два года, в Валенсии.", "notes": "Llevar + время — «уже столько-то». Одна из самых полезных фраз.", "difficulty": "B1", "tags": ["time", "idioms"] },
+    { "spanish": "Vine por trabajo", "translation": "Я приехал из-за работы", "example": "Vine por trabajo, y me quedé.", "exampleTranslation": "Приехал по работе — и остался.", "notes": "Venir — приезжать. Por + причина. Me quedé — я остался.", "difficulty": "B1", "tags": ["biography"] },
+    { "spanish": "Trabajo de camarero", "translation": "Я работаю официантом", "example": "Trabajo de camarero en un bar del centro.", "exampleTranslation": "Работаю официантом в баре в центре.", "notes": "Trabajar de + профессия — работать кем. Без предлога «como».", "difficulty": "A2", "tags": ["work"] },
+    { "spanish": "Estoy aprendiendo español", "translation": "Я учу испанский", "example": "Todavía estoy aprendiendo español.", "exampleTranslation": "Я всё ещё учу испанский.", "notes": "Todavía — всё ещё. Мягко объясняет ваши ошибки.", "difficulty": "A1", "tags": ["conversation"] },
+    { "spanish": "Me gusta la vida aquí", "translation": "Мне нравится жизнь здесь", "example": "Me gusta la vida aquí, la gente es abierta.", "exampleTranslation": "Мне нравится жизнь здесь, люди открытые.", "notes": "Gustar — нравиться. «Me gusta» + существительное.", "difficulty": "A1", "tags": ["conversation"] },
+    { "spanish": "¿Y tú qué haces?", "translation": "А ты чем занимаешься?", "example": "¿Y tú qué haces aquí, estudias o trabajas?", "exampleTranslation": "А ты чем занимаешься: учишься или работаешь?", "notes": "Вопрос, который возвращает разговор к собеседнику.", "difficulty": "A1", "tags": ["questions"] },
+    { "spanish": "Qué pequeño es el mundo", "translation": "Какой маленький мир", "example": "¡Conoces a Ana? Qué pequeño es el mundo.", "exampleTranslation": "Ты знаешь Ану? Какой маленький мир.", "notes": "Фраза-связка, когда обнаруживаете общих знакомых.", "difficulty": "B1", "tags": ["idioms"] }
+  ]
+}

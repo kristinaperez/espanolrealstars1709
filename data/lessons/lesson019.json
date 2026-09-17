@@ -1,0 +1,23 @@
+{
+  "lesson": 19,
+  "slug": "el-taxi",
+  "title": "El taxi",
+  "subtitle": "Такси и Cabify: адрес, цена, багаж",
+  "category": "transport",
+  "milestone": "transport",
+  "difficulty": "A2",
+  "tags": ["transport", "money", "directions"],
+  "summary": "Как объяснить адрес, попросить остановить и уточнить стоимость поездки.",
+  "situation": "Поездка в такси с чемоданами",
+  "authorComment": "Скажите адрес по блокам: calle, número, piso. «Calle Alcalá 120, segundo B» — и водитель всё поймёт.",
+  "phrases": [
+    { "spanish": "A la calle Alcalá, 120", "translation": "На улицу Алькала, 120", "example": "Buenas, a la calle Alcalá, 120, segundo B.", "exampleTranslation": "Здравствуйте, на улицу Алькала 120, вторая квартира B.", "notes": "Формула адреса: calle + número + piso + letra.", "difficulty": "A1", "tags": ["transport"] },
+    { "spanish": "¿Cuánto cuesta el trayecto?", "translation": "Сколько стоит поездка?", "example": "¿Cuánto cuesta más o menos el trayecto?", "exampleTranslation": "Сколько примерно будет стоить поездка?", "notes": "Trayecto — маршрут, поездка. También «el viaje».", "difficulty": "A2", "tags": ["money"] },
+    { "spanish": "¿Puede ir un poco más rápido?", "translation": "Можете ехать побыстрее?", "example": "Tengo prisa, ¿puede ir un poco más rápido?", "exampleTranslation": "Я тороплюсь, можете побыстрее?", "notes": "Tener prisa — торопиться. Очень нужное выражение.", "difficulty": "A2", "tags": ["transport"] },
+    { "spanish": "Mete la maleta en el maletero", "translation": "Положите чемодан в багажник", "example": "¿Me mete la maleta en el maletero?", "exampleTranslation": "Положите, пожалуйста, чемодан в багажник.", "notes": "Maletero — багажник. La maleta — чемодан.", "difficulty": "B1", "tags": ["transport"] },
+    { "spanish": "Déjeme aquí, por favor", "translation": "Высадите меня здесь, пожалуйста", "example": "Déjeme aquí, en la esquina, por favor.", "exampleTranslation": "Остановите здесь, на углу, пожалуйста.", "notes": "Dejar — оставить/высадить. «Déjeme» — вежливая форма.", "difficulty": "B1", "tags": ["transport", "politeness"] },
+    { "spanish": "Siga recto", "translation": "Ехать прямо", "example": "Siga recto y luego gire a la derecha.", "exampleTranslation": "Едьте прямо, потом поверните направо.", "notes": "Siga recto, gire a la derecha / izquierda — весь язык таксиста.", "difficulty": "A2", "tags": ["directions"] },
+    { "spanish": "¿Tiene cambio de veinte?", "translation": "У вас есть размен с двадцати?", "example": "¿Tiene cambio de veinte? Solo llevo eso.", "exampleTranslation": "Разменяете двадцать? У меня только такая купюра.", "notes": "«Cambio de veinte» — размен с двадцати евро.", "difficulty": "A2", "tags": ["money"] },
+    { "spanish": "Quédese el cambio", "translation": "Сдачи не надо", "example": "Gracias, quédese el cambio.", "exampleTranslation": "Спасибо, сдачу оставьте.", "notes": "Стандартная вежливость в испанском такси.", "difficulty": "A2", "tags": ["money"] }
+  ]
+}

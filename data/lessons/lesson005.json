@@ -1,0 +1,23 @@
+{
+  "lesson": 5,
+  "slug": "el-casero",
+  "title": "El casero",
+  "subtitle": "Разговор с хозяином квартиры",
+  "category": "housing",
+  "milestone": "housing",
+  "difficulty": "A2",
+  "tags": ["housing", "negotiation", "phone calls"],
+  "summary": "Как звонить по объявлению, договариваться об осмотре и обсуждать условия без паники.",
+  "situation": "Звонок хозяину квартиры по объявлению",
+  "authorComment": "По телефону испанский понять сложнее всего. Готовьте фразы заранее и говорите медленно — вас поймут.",
+  "phrases": [
+    { "spanish": "Llamo por el anuncio", "translation": "Я звоню по объявлению", "example": "Buenas tardes, llamo por el anuncio del alquiler.", "exampleTranslation": "Добрый день, я звоню по объявлению об аренде.", "notes": "Идеальный старт любого звонка в Испании.", "difficulty": "A2", "tags": ["phone calls", "housing"] },
+    { "spanish": "¿Sigue libre?", "translation": "Ещё свободно?", "example": "¿El piso sigue libre?", "exampleTranslation": "Квартира ещё свободна?", "notes": "Seguir + прилагательное — «всё ещё быть».", "difficulty": "A1", "tags": ["housing"] },
+    { "spanish": "¿Cuánto es el alquiler?", "translation": "Сколько стоит аренда?", "example": "¿Cuánto es el alquiler al mes?", "exampleTranslation": "Сколько аренда в месяц?", "notes": "Alquiler — аренда, alquilar — арендовать.", "difficulty": "A1", "tags": ["money", "housing"] },
+    { "spanish": "¿Acepta animales?", "translation": "Вы принимаете животных?", "example": "Tengo un gato. ¿Acepta animales?", "exampleTranslation": "У меня кот. Вы разрешаете животных?", "notes": "Частый вопрос и частый отказ: «No se admiten mascotas».", "difficulty": "A2", "tags": ["housing"] },
+    { "spanish": "Soy serio y tengo trabajo", "translation": "Я серьёзный человек и у меня есть работа", "example": "Soy serio y tengo trabajo estable.", "exampleTranslation": "Я надёжный, и у меня стабильная работа.", "notes": "Простая фраза, которая заметно повышает доверие хозяина.", "difficulty": "A2", "tags": ["housing", "work"] },
+    { "spanish": "¿Cuándo puedo verlo?", "translation": "Когда я могу посмотреть?", "example": "¿Cuándo puedo verlo? Me va bien el sábado.", "exampleTranslation": "Когда могу посмотреть? Мне удобно в субботу.", "notes": "«Me va bien» — мне подходит. Используйте это вместо «ok».", "difficulty": "A1", "tags": ["making plans"] },
+    { "spanish": "Me interesa el piso", "translation": "Мне интересна эта квартира", "example": "Me interesa el piso, ¿qué documentos necesita?", "exampleTranslation": "Квартира мне интересна, какие документы нужны?", "notes": "Следующий шаг после осмотра.", "difficulty": "A2", "tags": ["housing"] },
+    { "spanish": "Le llamo para confirmar", "translation": "Я вам позвоню, чтобы подтвердить", "example": "Le llamo esta tarde para confirmar, ¿vale?", "exampleTranslation": "Я позвоню вам сегодня вечером, чтобы подтвердить, хорошо?", "notes": "«Le llamo» — я вам позвоню. Вежливая форма.", "difficulty": "A2", "tags": ["phone calls", "pronouns"] }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 42,
+  "slug": "guay-mola-vale",
+  "title": "Guay, mola, vale",
+  "subtitle": "Живой испанский сленг",
+  "category": "social",
+  "milestone": "friends",
+  "difficulty": "B1",
+  "tags": ["social", "slang", "idioms"],
+  "summary": "Слова, по которым вас примут за своего: guay, mola, vale, tío, venga.",
+  "situation": "Разговор с друзьями в баре",
+  "authorComment": "Эти слова не из учебников, но без них испанский звучит по-книжному. Используйте понемногу, но уверенно.",
+  "phrases": [
+    { "spanish": "¡Qué guay!", "translation": "Круто! Класс!", "example": "¡Qué guay! Me encanta.", "exampleTranslation": "Круто! Мне очень нравится.", "notes": "Guay — круто. Слово номер один в испанском сленге.", "difficulty": "A2", "tags": ["slang"] },
+    { "spanish": "Me mola mucho", "translation": "Мне очень нравится", "example": "Este sitio me mola mucho.", "exampleTranslation": "Мне очень нравится это место.", "notes": "Molar — нравиться (сленг). Молодёжное, но все понимают.", "difficulty": "B1", "tags": ["slang"] },
+    { "spanish": "Vale", "translation": "Ок, ладно, хорошо", "example": "Vale, nos vemos allí.", "exampleTranslation": "Ок, встретимся там.", "notes": "Vale вставляют в каждую вторую фразу. Слушайте — и вы услышите.", "difficulty": "A1", "tags": ["slang"] },
+    { "spanish": "¡Venga!", "translation": "Давай! Ну же! Пока!", "example": "¡Venga, hasta luego!", "exampleTranslation": "Давай, пока!", "notes": "Venga — универсальное слово: поддержка, согласие, прощание.", "difficulty": "A1", "tags": ["slang"] },
+    { "spanish": "Tío, no me digas", "translation": "Слушай, не может быть", "example": "Tío, no me digas. ¿En serio?", "exampleTranslation": "Слушай, не может быть. Серьёзно?", "notes": "Tío/tía — «друг, чувак». Обращение между своими.", "difficulty": "B1", "tags": ["slang"] },
+    { "spanish": "Estoy hecho polvo", "translation": "Я без сил, вымотался", "example": "Después del trabajo estoy hecho polvo.", "exampleTranslation": "После работы я вымотан.", "notes": "«Hecho polvo» — буквально «превращён в пыль». Очень образно.", "difficulty": "B2", "tags": ["idioms"] },
+    { "spanish": "Da igual", "translation": "Всё равно, не имеет значения", "example": "Da igual, elige tú.", "exampleTranslation": "Без разницы, выбирай сам.", "notes": "Da igual / da lo mismo — не имеет значения.", "difficulty": "B1", "tags": ["idioms"] },
+    { "spanish": "Estoy en las nubes", "translation": "Я не в себе / витаю в облаках", "example": "Perdona, estaba en las nubes.", "exampleTranslation": "Извини, я задумался.", "notes": "«Estar en las nubes» — быть рассеянным. Милое выражение.", "difficulty": "B2", "tags": ["idioms"] }
+  ]
+}

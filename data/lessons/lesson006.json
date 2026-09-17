@@ -1,0 +1,23 @@
+{
+  "lesson": 6,
+  "slug": "el-contrato",
+  "title": "El contrato",
+  "subtitle": "Договор аренды и условия",
+  "category": "housing",
+  "milestone": "housing",
+  "difficulty": "A2",
+  "tags": ["housing", "documents", "negotiation"],
+  "summary": "Что прочитать в договоре и какие вопросы задать перед подписью.",
+  "situation": "Подписание договора аренды",
+  "authorComment": "Никогда не подписывайте договор, который не понимаете. Одна фраза «¿Me lo puede explicar?» решает всё.",
+  "phrases": [
+    { "spanish": "¿Cuánto dura el contrato?", "translation": "На какой срок договор?", "example": "¿Cuánto dura el contrato? ¿Un año?", "exampleTranslation": "На сколько договор? На год?", "notes": "Durar — длиться. Используйте и для поездок: «¿Cuánto dura el trayecto?».", "difficulty": "A2", "tags": ["housing", "documents"] },
+    { "spanish": "¿Hay comisión?", "translation": "Есть комиссия?", "example": "¿Hay comisión de la agencia?", "exampleTranslation": "Есть комиссия агентства?", "notes": "Комиссия может быть целый месяц аренды. Спрашивайте всегда.", "difficulty": "A2", "tags": ["money", "housing"] },
+    { "spanish": "Necesito un aval", "translation": "Мне нужна гарантия / поручительство", "example": "El casero pide un aval bancario.", "exampleTranslation": "Хозяин требует банковскую гарантию.", "notes": "Aval — гарантия. Часто требуется у иностранцев без истории в Испании.", "difficulty": "B1", "tags": ["housing", "bank"] },
+    { "spanish": "¿Puedo registrarme aquí?", "translation": "Я могу здесь прописаться?", "example": "¿Puedo empadronarme en este piso?", "exampleTranslation": "Я могу зарегистрироваться в этой квартире?", "notes": "Empadronarse — ключевое слово для жизни в Испании.", "difficulty": "B1", "tags": ["government", "housing"] },
+    { "spanish": "Firmo el contrato", "translation": "Я подписываю договор", "example": "Lo leo y firmo el contrato mañana.", "exampleTranslation": "Я прочитаю и подпишу договор завтра.", "notes": "Firmar — подписывать. La firma — подпись.", "difficulty": "A1", "tags": ["documents"] },
+    { "spanish": "¿Me puede dar una copia?", "translation": "Можете дать мне копию?", "example": "¿Me puede dar una copia del contrato?", "exampleTranslation": "Можете дать копию договора?", "notes": "Copia всегда нужна для empadronamiento и для банка.", "difficulty": "A2", "tags": ["documents", "politeness"] },
+    { "spanish": "No estoy de acuerdo con esta cláusula", "translation": "Я не согласен с этим пунктом", "example": "No estoy de acuerdo con esta cláusula del contrato.", "exampleTranslation": "Я не согласен с этим пунктом договора.", "notes": "Фраза для серьёзного разговора. Cláusula — пункт договора.", "difficulty": "B1", "tags": ["negotiation"] },
+    { "spanish": "Lo tengo que pensar", "translation": "Мне нужно это обдумать", "example": "Lo tengo que pensar, ¿me da un día?", "exampleTranslation": "Мне нужно подумать, дадите мне день?", "notes": "Вежливый отказ или пауза. Никогда не подписывайте под давлением.", "difficulty": "A2", "tags": ["negotiation"] }
+  ]
+}

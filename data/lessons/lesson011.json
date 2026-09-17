@@ -1,0 +1,23 @@
+{
+  "lesson": 11,
+  "slug": "la-cuenta",
+  "title": "La cuenta",
+  "subtitle": "Оплата, счёт и чаевые",
+  "category": "restaurant",
+  "milestone": "coffee",
+  "difficulty": "A2",
+  "tags": ["restaurant", "money", "payment"],
+  "summary": "Попросить счёт, разделить его, заплатить картой и понять, что чаевые в Испании не обязательны.",
+  "situation": "Обед в ресторане, расчёт",
+  "authorComment": "Официант никогда не принесёт счёт сам — в Испании это невежливо. Скажите «La cuenta, por favor».",
+  "phrases": [
+    { "spanish": "La cuenta, por favor", "translation": "Счёт, пожалуйста", "example": "Cuando pueda, la cuenta por favor.", "exampleTranslation": "Когда будете готовы, счёт, пожалуйста.", "notes": "«Cuando pueda» — «когда сможете», очень вежливая форма.", "difficulty": "A1", "tags": ["payment"] },
+    { "spanish": "¿Puedo pagar con tarjeta?", "translation": "Можно картой?", "example": "¿Puedo pagar con tarjeta o solo en efectivo?", "exampleTranslation": "Можно картой или только наличными?", "notes": "Efectivo — наличные. В маленьких барах до сих пор только наличные.", "difficulty": "A1", "tags": ["payment", "bank"] },
+    { "spanish": "¿Me trae la cuenta, por favor?", "translation": "Принесите мне счёт, пожалуйста", "example": "Perdona, ¿me trae la cuenta, por favor?", "exampleTranslation": "Извините, принесите счёт, пожалуйста?", "notes": "Traer — приносить. Уважительная форма глагола.", "difficulty": "A2", "tags": ["politeness"] },
+    { "spanish": "Vamos a pagar a medias", "translation": "Мы заплатим пополам", "example": "Vamos a pagar a medias, ¿se puede?", "exampleTranslation": "Мы заплатим пополам, можно?", "notes": "A medias — пополам. «Pagar por separado» — отдельно.", "difficulty": "B1", "tags": ["money"] },
+    { "spanish": "Se lo pago en efectivo", "translation": "Я заплачу наличными", "example": "No pasa nada, se lo pago en efectivo.", "exampleTranslation": "Ничего, я заплачу наличными.", "notes": "«Se lo pago» — я вам это заплачу. Двойное местоимение.", "difficulty": "B1", "tags": ["payment", "pronouns"] },
+    { "spanish": "¿Está incluido el servicio?", "translation": "Сервисный сбор включён?", "example": "¿Está incluido el servicio o va aparte?", "exampleTranslation": "Сервис включён или идёт отдельно?", "notes": "В Испании обычно включён, чаевые необязательны.", "difficulty": "B1", "tags": ["money"] },
+    { "spanish": "Quédese con el cambio", "translation": "Оставьте сдачу себе", "example": "Quédese con el cambio, gracias.", "exampleTranslation": "Оставьте сдачу, спасибо.", "notes": "Так говорят при желании оставить чаевые.", "difficulty": "B1", "tags": ["money", "politeness"] },
+    { "spanish": "Me ha gustado mucho", "translation": "Мне очень понравилось", "example": "Me ha gustado mucho el menú del día.", "exampleTranslation": "Мне очень понравилось меню дня.", "notes": "Menú del día — комплексный обед. Лучшая цена в Испании.", "difficulty": "A2", "tags": ["restaurant"] }
+  ]
+}

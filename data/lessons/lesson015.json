@@ -1,0 +1,23 @@
+{
+  "lesson": 15,
+  "slug": "un-kilo-medio-kilo",
+  "title": "Un kilo, medio kilo",
+  "subtitle": "Количество, вес и упаковка",
+  "category": "shopping",
+  "milestone": "groceries",
+  "difficulty": "A1",
+  "tags": ["shopping", "numbers", "quantities"],
+  "summary": "Половина, четверть, кусок, пачка, бутылка — как назвать количество по-испански.",
+  "situation": "Покупка продуктов на развес",
+  "authorComment": "В испанском важен род слова: «un kilo de pan» но «una docena de huevos». Учитесь в паре с существительным.",
+  "phrases": [
+    { "spanish": "Medio kilo, por favor", "translation": "Полкило, пожалуйста", "example": "Medio kilo de jamón, por favor.", "exampleTranslation": "Полкило хамона, пожалуйста.", "notes": "Medio — половина. Medio kilo, media docena.", "difficulty": "A1", "tags": ["quantities"] },
+    { "spanish": "Un cuarto de kilo", "translation": "Четверть килограмма", "example": "Un cuarto de kilo de queso.", "exampleTranslation": "250 граммов сыра.", "notes": "Так заказывают в сыроварне и на мясном прилавке.", "difficulty": "A1", "tags": ["quantities"] },
+    { "spanish": "Una docena de huevos", "translation": "Дюжина яиц", "example": "Me pone una docena de huevos.", "exampleTranslation": "Мне дюжину яиц.", "notes": "Docena — дюжина. Media docena — полдюжины.", "difficulty": "A1", "tags": ["quantities"] },
+    { "spanish": "Una barra de pan", "translation": "Один батон хлеба", "example": "Una barra de pan, por favor.", "exampleTranslation": "Один багет, пожалуйста.", "notes": "Barra — батон. Важно для пекарии.", "difficulty": "A1", "tags": ["food"] },
+    { "spanish": "Una botella de agua", "translation": "Бутылка воды", "example": "Una botella de agua sin gas.", "exampleTranslation": "Бутылка воды без газа.", "notes": "Con gas / sin gas — с газом или без. Вопрос в любом кафе.", "difficulty": "A1", "tags": ["quantities"] },
+    { "spanish": "Un paquete de arroz", "translation": "Пачка риса", "example": "Un paquete de arroz y dos latas de atún.", "exampleTranslation": "Пачка риса и две банки тунца.", "notes": "Paquete — пачка, lata — банка, bolsa — пакет.", "difficulty": "A1", "tags": ["quantities"] },
+    { "spanish": "Un poco más", "translation": "Еще немного", "example": "Un poco más, hasta el kilo.", "exampleTranslation": "Ещё немного, до килограмма.", "notes": "«Un poco» — немного. Самая полезная «мера» в языке.", "difficulty": "A1", "tags": ["quantities"] },
+    { "spanish": "Ya está, gracias", "translation": "Всё, хватит, спасибо", "example": "Ya está, gracias, así es suficiente.", "exampleTranslation": "Всё, спасибо, этого достаточно.", "notes": "Фраза-стоп. Нужна и на рынке, и в разговоре.", "difficulty": "A1", "tags": ["shopping"] }
+  ]
+}

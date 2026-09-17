@@ -1,0 +1,23 @@
+{
+  "lesson": 37,
+  "slug": "la-entrevista",
+  "title": "La entrevista",
+  "subtitle": "Собеседование",
+  "category": "work",
+  "milestone": "work",
+  "difficulty": "B2",
+  "tags": ["work", "conversation", "interview"],
+  "summary": "Рассказать о себе, ответить на сложные вопросы и задать свои.",
+  "situation": "Собеседование в офисе или кафе",
+  "authorComment": "Три вопроса собеседования всегда одинаковые: hable de usted, por qué quiere trabajar aquí, cuáles son sus defectos. Учите ответы блоками.",
+  "phrases": [
+    { "spanish": "Gracias por recibirme", "translation": "Спасибо, что приняли меня", "example": "Buenos días, gracias por recibirme.", "exampleTranslation": "Добрый день, спасибо, что уделили мне время.", "notes": "Recibir — принимать, встречать. Вежливое начало.", "difficulty": "B1", "tags": ["interview", "politeness"] },
+    { "spanish": "Le cuento un poco sobre mí", "translation": "Расскажу немного о себе", "example": "Le cuento un poco sobre mí y mi experiencia.", "exampleTranslation": "Расскажу немного о себе и своём опыте.", "notes": "«Le cuento» — я вам расскажу. Прямо из первого урока.", "difficulty": "B1", "tags": ["interview"] },
+    { "spanish": "Aprendo rápido", "translation": "Я быстро учусь", "example": "Aprendo rápido y no me da miedo el trabajo duro.", "exampleTranslation": "Я быстро учусь и не боюсь тяжёлой работы.", "notes": "Простая и сильная фраза. Работает лучше сложных формулировок.", "difficulty": "A2", "tags": ["interview"] },
+    { "spanish": "Me adapto fácilmente", "translation": "Я легко адаптируюсь", "example": "Me adapto fácilmente a cualquier turno.", "exampleTranslation": "Легко адаптируюсь к любому графику.", "notes": "Adaptarse a — адаптироваться к. Reflexivo.", "difficulty": "B1", "tags": ["interview"] },
+    { "spanish": "Mi punto débil es el idioma", "translation": "Моя слабая сторона — язык", "example": "Mi punto débil es el idioma, pero estudio cada día.", "exampleTranslation": "Моя слабость — язык, но я учу его каждый день.", "notes": "Всегда добавляйте «pero estudio cada día» — это меняет тон ответа.", "difficulty": "B2", "tags": ["interview"] },
+    { "spanish": "¿Cómo es el horario?", "translation": "Какой график?", "example": "¿Cómo es el horario y los días de descanso?", "exampleTranslation": "Какой график и какие выходные?", "notes": "Descanso — отдых, выходной. Semanal — недельный.", "difficulty": "B1", "tags": ["work", "questions"] },
+    { "spanish": "¿Cuándo sabré la decisión?", "translation": "Когда я узнаю решение?", "example": "¿Cuándo sabré la decisión?", "exampleTranslation": "Когда я узнаю о решении?", "notes": "Sabré — будущее время от saber. Естественный финал интервью.", "difficulty": "B2", "tags": ["interview", "time"] },
+    { "spanish": "Muchas gracias por su tiempo", "translation": "Большое спасибо за ваше время", "example": "Muchas gracias por su tiempo, espero noticias.", "exampleTranslation": "Большое спасибо за время, жду новостей.", "notes": "Esperar noticias — ждать новостей. Стандартная фраза.", "difficulty": "B1", "tags": ["politeness"] }
+  ]
+}

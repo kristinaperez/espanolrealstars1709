@@ -1,0 +1,23 @@
+{
+  "lesson": 1,
+  "slug": "me-cuentas",
+  "title": "Me cuentas",
+  "subtitle": "Самые первые фразы живого разговора",
+  "category": "daily-life",
+  "milestone": "first-days",
+  "difficulty": "A1",
+  "tags": ["daily life", "pronouns", "conversation"],
+  "summary": "Фразы, с которых начинается любой разговор в Испании. Испанцы редко говорят «cuéntame» — они говорят «me cuentas».",
+  "situation": "Первый разговор с соседом, коллегой или барменом",
+  "authorComment": "Не переводите эти фразы дословно. «Me cuentas» — это не приказ, а приглашение к разговору. Так в Испании начинают общение.",
+  "phrases": [
+    { "spanish": "Me cuentas", "translation": "Расскажешь мне", "example": "Lo haces y me cuentas.", "exampleTranslation": "Ты это делаешь, а потом расскажешь мне.", "notes": "В разговорной речи местоимение «me» часто стоит после глагола: me cuentas, te llamo, se lo digo.", "difficulty": "A1", "tags": ["daily life", "pronouns"] },
+    { "spanish": "¿Qué me cuentas?", "translation": "Как дела? Что нового?", "example": "¡Hombre! ¿Qué me cuentas?", "exampleTranslation": "О, привет! Как жизнь?", "notes": "Типичное приветствие между знакомыми. Ответ: «Nada, aquí estamos».", "difficulty": "A1", "tags": ["greetings"] },
+    { "spanish": "Ya te cuento", "translation": "Сейчас расскажу / потом расскажу", "example": "Espera, ya te cuento.", "exampleTranslation": "Подожди, сейчас расскажу.", "notes": "«Ya» здесь смягчает: не «уже», а «сейчас же».", "difficulty": "A1", "tags": ["conversation"] },
+    { "spanish": "Cuéntamelo todo", "translation": "Расскажи мне всё", "example": "Ven aquí y cuéntamelo todo.", "exampleTranslation": "Иди сюда и расскажи мне всё.", "notes": "Двойные местоимения: me + lo = melo.", "difficulty": "A2", "tags": ["pronouns"] },
+    { "spanish": "Ni idea", "translation": "Понятия не имею", "example": "— ¿A qué hora cierra? — Ni idea.", "exampleTranslation": "— Во сколько закрывается? — Понятия не имею.", "notes": "Очень частый ответ. Вежливее: «No lo sé».", "difficulty": "A1", "tags": ["daily life"] },
+    { "spanish": "Vamos a ver", "translation": "Давай посмотрим / ну-ка", "example": "Vamos a ver qué dicen.", "exampleTranslation": "Посмотрим, что они скажут.", "notes": "Универсальная фраза-заполнитель, когда нужно подумать.", "difficulty": "A1", "tags": ["conversation"] },
+    { "spanish": "Ya verás", "translation": "Вот увидишь / увидишь сам", "example": "Ya verás, te gusta.", "exampleTranslation": "Вот увидишь, тебе понравится.", "notes": "Уверенность говорящего. «Ya verás» — частая связка в дружеском разговоре.", "difficulty": "A2", "tags": ["conversation"] },
+    { "spanish": "No pasa nada", "translation": "Ничего страшного / всё в порядке", "example": "Perdona por el retraso. — No pasa nada.", "exampleTranslation": "Извини за опоздание. — Ничего страшного.", "notes": "Фраза-таблетка. Слышно в Испании десятки раз в день.", "difficulty": "A1", "tags": ["daily life"] }
+  ]
+}
