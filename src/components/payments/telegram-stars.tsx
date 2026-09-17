@@ -63,7 +63,7 @@ export function TelegramStarsPayment({ compact = false }: { compact?: boolean })
     (key: string) => {
       dispatch({ type: "activate", key });
       setPhase("paid");
-      setMessage(`Premium активирован. Ключ: ${key}`);
+      setMessage("Premium активирован!");
       void refresh();
     },
     [dispatch, refresh],
@@ -182,8 +182,8 @@ export function TelegramStarsPayment({ compact = false }: { compact?: boolean })
       <div className="rounded-3xl border border-line bg-background-soft p-4">
         <p className="text-sm font-bold">Оплата звёздами Telegram</p>
         <p className="mt-1 text-sm text-muted">
-          Онлайн-оплата недоступна: приложение работает в локальном режиме. Введите лицензионный ключ ниже
-          или откройте сайт с подключённым сервером.
+          Онлайн-оплата недоступна: приложение работает в локальном режиме. Откройте сайт с подключённым сервером
+          и базой данных, чтобы оплатить звёздами.
         </p>
       </div>
     );
@@ -215,11 +215,6 @@ export function TelegramStarsPayment({ compact = false }: { compact?: boolean })
           Все уроки, экзамены, полное повторение и сертификат открыты. Доступ привязан к вашему Telegram, поэтому
           он восстановится на любом устройстве.
         </p>
-        {state.license ? (
-          <p className="rounded-2xl bg-surface px-4 py-3 font-mono text-sm font-bold tracking-widest">
-            {state.license.key}
-          </p>
-        ) : null}
         <div className="flex flex-wrap gap-2">
           <Link
             href="/learn/lessons"
@@ -243,7 +238,6 @@ export function TelegramStarsPayment({ compact = false }: { compact?: boolean })
         </p>
         <div className="flex flex-wrap gap-2">
           <Badge tone="success">{starsPrice} ⭐ оплачено</Badge>
-          {state.license ? <Badge tone="info">{state.license.key}</Badge> : null}
         </div>
         <div className="mt-1 flex flex-wrap gap-2">
           <Button variant="secondary" size="sm" onClick={() => void restore()}>

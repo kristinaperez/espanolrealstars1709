@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRef, useState } from "react";
-import { Check, Download, KeyRound, ShieldCheck, Star, Upload } from "lucide-react";
+import { Download, ShieldCheck, Star, Upload } from "lucide-react";
 import { Badge, Card, Input, Switch } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { TelegramLogin } from "@/components/auth/telegram-login";
@@ -10,62 +10,14 @@ import { TelegramStarsPayment } from "@/components/payments/telegram-stars";
 import { useProgress } from "@/components/providers/progress-provider";
 import { useAuth } from "@/components/providers/auth-provider";
 import { course, pricing } from "@/lib/content/config";
-import { formatKey, isValidKey } from "@/lib/license";
 import { exportProgress, importProgress } from "@/lib/progress/storage";
 import { cn } from "@/lib/utils";
 
 export function SettingsView() {
   const { state, dispatch, ready, premium } = useProgress();
   const { user, starsPrice, status: authStatus } = useAuth();
-  const [key, setKey] = useState("");
-  const [keyError, setKeyError] = useState<string | null>(null);
-  const [keyNotice, setKeyNotice] = useState<string | null>(null);
   const [importError, setImportError] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
-
-  /** Prefer the authoritative server check, fall back to the offline checksum. */
-  const activate = async () => {
-    const clean = key.trim();
-    if (clean.length === 0) return;
-    setKeyError(null);
-    setKeyNotice(null);
-
-    if (authStatus === "server") {
-      try {
-        const response = await fetch("/api/licenses/activate", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ key: clean }),
-        });
-        const payload = (await response.json()) as { ok: boolean; valid?: boolean; key?: string; error?: string };
-        if (payload.valid && payload.key) {
-          dispatch({ type: "activate", key: payload.key });
-          setKey("");
-          setKeyNotice("Ключ подтверждён на сервере. Premium активирован.");
-          return;
-        }
-        if (isValidKey(clean)) {
-          // Valid format but unknown to the database.
-          dispatch({ type: "activate", key: formatKey(clean) });
-          setKey("");
-          setKeyNotice("Ключ активирован локально (офлайн-проверка формата).");
-          return;
-        }
-        setKeyError("Ключ не найден. Формат: XXXX-XXXX-XXXX");
-        return;
-      } catch {
-        // fall through to the offline check
-      }
-    }
-
-    if (isValidKey(clean)) {
-      dispatch({ type: "activate", key: formatKey(clean) });
-      setKey("");
-      setKeyNotice("Ключ активирован локально (офлайн-режим).");
-    } else {
-      setKeyError("Ключ не распознан. Формат: XXXX-XXXX-XXXX");
-    }
-  };
 
   const download = () => {
     const blob = new Blob([exportProgress(state)], { type: "application/json" });
@@ -217,20 +169,6 @@ export function SettingsView() {
             <p className="mt-3 text-sm text-muted">
               Все уроки, экзамены и система повторения открыты. Спасибо за поддержку проекта!
             </p>
-            <div className="mt-3 flex flex-wrap items-center gap-2">
-              {state.license ? (
-                <Badge tone="success">
-                  <Check className="h-3.5 w-3.5" /> {state.license.key}
-                </Badge>
-              ) : null}
-              <button
-                type="button"
-                onClick={() => dispatch({ type: "deactivate" })}
-                className="text-xs font-bold text-muted underline"
-              >
-                Отключить ключ на этом устройстве
-              </button>
-            </div>
             <div className="mt-4">
               <TelegramStarsPayment compact />
             </div>
@@ -238,44 +176,12 @@ export function SettingsView() {
         ) : (
           <>
             <p className="mt-3 text-sm text-muted">
-              После урока {course.freeLessonCount} курс открывается разовой покупкой. Можно оплатить{" "}
-              {starsPrice} звёздами Telegram или ввести лицензионный ключ.
+              После урока {course.freeLessonCount} курс открывается разовой покупкой за {starsPrice} звёзд Telegram.
             </p>
 
             <div className="mt-4">
               <TelegramStarsPayment />
             </div>
-
-            <details className="mt-5 rounded-3xl border border-line bg-surface p-4">
-              <summary className="cursor-pointer list-none text-sm font-bold">
-                <KeyRound className="mr-1.5 inline h-4 w-4 text-primary" />
-                У меня есть лицензионный ключ
-              </summary>
-              <div className="mt-3 flex flex-col gap-2 sm:flex-row">
-                <Input
-                  id="license-key"
-                  name="license-key"
-                  autoComplete="off"
-                  value={key}
-                  onChange={(event) => {
-                    setKey(event.target.value.toUpperCase());
-                    setKeyError(null);
-                    setKeyNotice(null);
-                  }}
-                  placeholder="XXXX-XXXX-XXXX"
-                  className="font-mono tracking-widest"
-                />
-                <Button size="lg" onClick={() => void activate()}>
-                  Активировать
-                </Button>
-              </div>
-              {keyError ? <p className="mt-2 text-sm font-semibold text-danger">{keyError}</p> : null}
-              {keyNotice ? <p className="mt-2 text-sm font-semibold text-success">{keyNotice}</p> : null}
-              <p className="mt-2 text-xs text-muted">
-                Ключ приходит в чат с ботом после оплаты звёздами. Архитектура готова к подключению Stripe: ключ
-                легко заменяется картой.
-              </p>
-            </details>
 
             <div className="mt-5 grid gap-3 sm:grid-cols-2">
               <div className="rounded-2xl border border-line bg-surface p-4">

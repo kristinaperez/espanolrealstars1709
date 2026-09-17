@@ -6,25 +6,37 @@ import { useAuth } from "@/components/providers/auth-provider";
 import { Badge } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
+declare global {
+  interface Window {
+    onTelegramAuth?: (user: Record<string, unknown>) => void;
+  }
+}
+
 /**
  * Official Telegram Login Widget.
  *
- * We deliberately use Telegram's `data-auth-url` redirect flow instead of
- * the JavaScript `data-onauth` callback. The redirect flow is more reliable
- * with React/Next.js because the widget lives inside an iframe and its
- * callback can otherwise race with React effect cleanup. Our server verifies
- * Telegram's signed query and sets the session cookie before redirecting back.
+ * Uses `data-onauth` so the session is established via POST without a full-page
+ * redirect — the payment button appears immediately after login.
  */
 export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compact" }) {
-  const { botUsername, authenticating, error, user, logout, miniApp } = useAuth();
+  const { botUsername, authenticating, error, user, logout, miniApp, loginWithWidgetData } = useAuth();
   const containerRef = useRef<HTMLDivElement>(null);
   const [widgetError, setWidgetError] = useState<string | null>(null);
+  const [hostname, setHostname] = useState<string | null>(null);
+
+  useEffect(() => {
+    setHostname(window.location.hostname);
+  }, []);
 
   useEffect(() => {
     if (!botUsername || user || miniApp) return;
     const container = containerRef.current;
     if (!container) return;
     if (container.querySelector("script")) return;
+
+    window.onTelegramAuth = (data) => {
+      void loginWithWidgetData(data);
+    };
 
     const script = document.createElement("script");
     script.src = "https://telegram.org/js/telegram-widget.js?22";
@@ -34,7 +46,7 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
     script.setAttribute("data-userpic", "true");
     script.setAttribute("data-radius", "16");
     script.setAttribute("data-request-access", "write");
-    script.setAttribute("data-auth-url", `${window.location.origin}/api/telegram/auth`);
+    script.setAttribute("data-onauth", "onTelegramAuth(user)");
     script.onload = () => setWidgetError(null);
     script.onerror = () =>
       setWidgetError(
@@ -44,8 +56,9 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
 
     return () => {
       script.remove();
+      delete window.onTelegramAuth;
     };
-  }, [botUsername, user, miniApp, variant]);
+  }, [botUsername, loginWithWidgetData, user, miniApp, variant]);
 
   if (user) {
     return (
@@ -111,9 +124,16 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
       {variant === "full" ? (
         <>
           <p className="text-xs text-muted">
-            После входа Telegram вернёт вас сюда автоматически. Мы получаем только имя, username и Telegram ID.
-            Прогресс обучения остаётся на вашем устройстве: аккаунт нужен только для оплаты и восстановления покупки.
+            Мы получаем только имя, username и Telegram ID. Прогресс обучения остаётся на вашем устройстве:
+            аккаунт нужен только для оплаты и восстановления покупки.
           </p>
+          {hostname ? (
+            <p className="text-xs text-muted">
+              Если видите «Bot domain invalid», откройте @BotFather → /setdomain → добавьте домен{" "}
+              <code className="font-mono font-bold">{hostname}</code> (без https:// и без www, если сайт открывается
+              без www).
+            </p>
+          ) : null}
           <div className="flex flex-wrap gap-2">
             <Badge tone="info">Без пароля</Badge>
             <Badge tone="success">Официальный виджет Telegram</Badge>

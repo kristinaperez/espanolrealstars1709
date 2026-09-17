@@ -148,7 +148,7 @@ function Stat({
 }
 
 export function PremiumLock({ nextLesson }: { nextLesson?: number }) {
-  const { state } = useProgress();
+  const { premium } = useProgress();
   const { starsPrice, user } = useAuth();
   const [showPayment, setShowPayment] = useState(false);
 
@@ -167,7 +167,7 @@ export function PremiumLock({ nextLesson }: { nextLesson?: number }) {
       </div>
 
       <div className="mx-auto flex max-w-md flex-col gap-3 sm:flex-row sm:justify-center">
-        {state.license ? (
+        {premium ? (
           <Link
             href="/learn/settings#premium"
             className="inline-flex h-14 items-center justify-center rounded-2xl bg-primary px-7 text-base font-semibold text-primary-contrast shadow-[0_4px_0_0_var(--primary-strong)]"
@@ -193,7 +193,7 @@ export function PremiumLock({ nextLesson }: { nextLesson?: number }) {
         ) : null}
       </div>
 
-      {showPayment && !state.license ? (
+      {showPayment && !premium ? (
         <div className="mx-auto max-w-xl text-left">
           <Card className="bg-surface">
             {user ? (
@@ -202,12 +202,6 @@ export function PremiumLock({ nextLesson }: { nextLesson?: number }) {
               <div className="flex flex-col gap-3">
                 <p className="text-sm font-bold">Войдите через Telegram, чтобы оплатить</p>
                 <TelegramLogin variant="compact" />
-                <Link
-                  href="/learn/settings#premium"
-                  className="text-xs font-bold text-primary underline decoration-primary/40"
-                >
-                  У меня есть лицензионный ключ →
-                </Link>
               </div>
             )}
           </Card>

@@ -48,16 +48,33 @@ export async function POST(request: NextRequest) {
 /**
  * GET — redirect flavour of the Login Widget (`data-auth-url`).
  * Telegram appends the signed fields to the query string.
+ * Always redirect to the canonical domain (NEXT_PUBLIC_SITE_URL) so that
+ * Netlify deploy-preview URLs never show up in the browser address bar.
  */
 export async function GET(request: NextRequest) {
-  const url = new URL(request.url);
+  // Resolve canonical origin: prefer NEXT_PUBLIC_SITE_URL to avoid deploy-preview URLs.
+  const requestUrl = new URL(request.url);
+  const canonicalOrigin =
+    process.env.NEXT_PUBLIC_SITE_URL
+      ? new URL(process.env.NEXT_PUBLIC_SITE_URL).origin
+      : requestUrl.origin;
+
+  try {
+    const { db } = await import("@/db");
+    await db.execute(await (await import("drizzle-orm")).sql`select 1`);
+  } catch {
+    const target = new URL("/learn/settings#premium", canonicalOrigin);
+    target.searchParams.set("telegram", "error");
+    return NextResponse.redirect(target);
+  }
+
   const entries: Record<string, string> = {};
-  for (const [key, value] of url.searchParams.entries()) {
+  for (const [key, value] of requestUrl.searchParams.entries()) {
     entries[key] = value;
   }
 
   const verified = verifyTelegramAuth(entries);
-  const target = new URL("/learn/settings#premium", url.origin);
+  const target = new URL("/learn/settings#premium", canonicalOrigin);
 
   if (!verified) {
     target.searchParams.set("telegram", "error");

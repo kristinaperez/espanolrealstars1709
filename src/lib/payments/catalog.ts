@@ -47,14 +47,11 @@ export function getProduct(id: string): Product | null {
 }
 
 export interface PaymentMethodDescriptor {
-  id: "telegram_stars" | "license_key";
+  id: "telegram_stars";
   enabled: boolean;
   label: string;
 }
 
 export function paymentMethods(): PaymentMethodDescriptor[] {
-  return [
-    { id: "telegram_stars", enabled: true, label: `Telegram Stars · ${starsPrice()} ⭐` },
-    { id: "license_key", enabled: true, label: "Лицензионный ключ" },
-  ];
+  return [{ id: "telegram_stars", enabled: true, label: `Telegram Stars · ${starsPrice()} ⭐` }];
 }

@@ -168,6 +168,23 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     await refresh();
   }, [refresh]);
 
+  // Handle redirect after the legacy data-auth-url login flow.
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    const telegram = url.searchParams.get("telegram");
+    if (!telegram) return;
+
+    url.searchParams.delete("telegram");
+    const clean = `${url.pathname}${url.search}${url.hash}`;
+    window.history.replaceState({}, "", clean);
+
+    if (telegram === "ok") {
+      void refresh();
+    } else if (telegram === "error") {
+      setError("Не удалось подтвердить вход через Telegram. Проверьте домен в BotFather и попробуйте снова.");
+    }
+  }, [refresh]);
+
   // Initial load + Mini App auto-login.
   useEffect(() => {
     let cancelled = false;

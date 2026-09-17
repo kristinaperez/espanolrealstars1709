@@ -73,7 +73,7 @@ export async function GET(
   return jsonResponse(
     {
       ok: false,
-      error: "Этот урок входит в Premium. Оплатите 500 ⭐ или введите лицензионный ключ.",
+      error: "Этот урок входит в Premium. Оплатите 500 ⭐ в Telegram, чтобы получить доступ.",
       freeLessonCount: FREE_LESSON_COUNT,
     },
     402,

@@ -282,13 +282,12 @@ export default function LandingPage() {
                 <span className="text-base font-semibold text-muted">единоразово</span>
               </p>
               <ul className="mt-3 flex flex-wrap gap-2">
-                {payments.methods.map((method) => (
+                {payments.methods.filter((m) => m.enabled).map((method) => (
                   <li
                     key={method.id}
                     className="rounded-full border border-line bg-background-soft px-3 py-1 text-xs font-bold"
                   >
-                    {method.id === "telegram_stars" ? "⭐ " : "🔑 "}
-                    {method.label}
+                    ⭐ {method.label}
                   </li>
                 ))}
               </ul>
@@ -368,7 +367,7 @@ export default function LandingPage() {
               <ul className="mt-2 flex flex-col gap-1 text-muted">
                 <li><a href="#pricing" className="hover:text-foreground">Цена</a></li>
                 <li><a href="#faq" className="hover:text-foreground">FAQ</a></li>
-                <li><Link href="/learn/settings#premium" className="hover:text-foreground">Активация ключа</Link></li>
+                <li><Link href="/learn/settings#premium" className="hover:text-foreground">Оплата Stars</Link></li>
               </ul>
             </div>
           </div>
