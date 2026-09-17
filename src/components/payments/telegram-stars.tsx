@@ -146,7 +146,7 @@ export function TelegramStarsPayment({ compact = false }: { compact?: boolean })
       });
       setOpenedIn(how);
       if (how === "browser") {
-        setMessage("Счёт открыт в новой вкладке. После оплаты вернитесь сюда.");
+        setMessage("Счёт открыт в браузере. Если Telegram не открылся автоматически, нажмите «Открыть счёт заново». После оплаты вернитесь сюда.");
         startPolling(payload.orderId);
       }
     } catch (caught) {

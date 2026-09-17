@@ -6,40 +6,35 @@ import { useAuth } from "@/components/providers/auth-provider";
 import { Badge } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
-declare global {
-  interface Window {
-    onTelegramAuth?: (user: Record<string, unknown>) => void;
-  }
-}
-
 /**
  * Official Telegram Login Widget.
- * The bot username comes from the server, so the bot token never reaches the client.
+ *
+ * We deliberately use Telegram's `data-auth-url` redirect flow instead of
+ * the JavaScript `data-onauth` callback. The redirect flow is more reliable
+ * with React/Next.js because the widget lives inside an iframe and its
+ * callback can otherwise race with React effect cleanup. Our server verifies
+ * Telegram's signed query and sets the session cookie before redirecting back.
  */
 export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compact" }) {
-  const { botUsername, loginWithWidgetData, authenticating, error, user, logout, miniApp } = useAuth();
+  const { botUsername, authenticating, error, user, logout, miniApp } = useAuth();
   const containerRef = useRef<HTMLDivElement>(null);
   const [widgetError, setWidgetError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!botUsername || user) return;
+    if (!botUsername || user || miniApp) return;
     const container = containerRef.current;
     if (!container) return;
     if (container.querySelector("script")) return;
-
-    window.onTelegramAuth = (data: Record<string, unknown>) => {
-      void loginWithWidgetData(data);
-    };
 
     const script = document.createElement("script");
     script.src = "https://telegram.org/js/telegram-widget.js?22";
     script.async = true;
     script.setAttribute("data-telegram-login", botUsername);
-    script.setAttribute("data-size", "large");
+    script.setAttribute("data-size", variant === "compact" ? "large" : "large");
     script.setAttribute("data-userpic", "true");
     script.setAttribute("data-radius", "16");
     script.setAttribute("data-request-access", "write");
-    script.setAttribute("data-onauth", "onTelegramAuth(user)");
+    script.setAttribute("data-auth-url", `${window.location.origin}/api/telegram/auth`);
     script.onload = () => setWidgetError(null);
     script.onerror = () =>
       setWidgetError(
@@ -48,9 +43,9 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
     container.appendChild(script);
 
     return () => {
-      if (window.onTelegramAuth) delete window.onTelegramAuth;
+      script.remove();
     };
-  }, [botUsername, loginWithWidgetData, user]);
+  }, [botUsername, user, miniApp, variant]);
 
   if (user) {
     return (
@@ -116,8 +111,8 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
       {variant === "full" ? (
         <>
           <p className="text-xs text-muted">
-            Мы получаем только имя, username и Telegram ID. Прогресс обучения остаётся на вашем устройстве:
-            аккаунт нужен только для оплаты и восстановления покупки.
+            После входа Telegram вернёт вас сюда автоматически. Мы получаем только имя, username и Telegram ID.
+            Прогресс обучения остаётся на вашем устройстве: аккаунт нужен только для оплаты и восстановления покупки.
           </p>
           <div className="flex flex-wrap gap-2">
             <Badge tone="info">Без пароля</Badge>
