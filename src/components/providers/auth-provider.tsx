@@ -93,7 +93,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const refresh = useCallback(async () => {
     try {
-      const response = await fetch("/api/telegram/session", { cache: "no-store" });
+      const response = await fetch("/api/telegram/session", { cache: "no-store", credentials: "include" });
       if (!response.ok) throw new Error(`status ${response.status}`);
       const payload = (await response.json()) as AccountState;
       applyAccount(payload);
@@ -111,6 +111,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       try {
         const response = await fetch("/api/telegram/auth/init", {
           method: "POST",
+          credentials: "include",
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ initData }),
         });
@@ -138,6 +139,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       try {
         const response = await fetch("/api/telegram/auth", {
           method: "POST",
+          credentials: "include",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(data),
         });
