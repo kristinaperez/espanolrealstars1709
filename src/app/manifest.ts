@@ -5,20 +5,29 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Español Real — живой испанский для жизни в Испании",
+    name: "Español Real| Cristina Perez",
     short_name: "Español Real",
     description:
-      "Разговорный испанский по авторскому учебнику: реальные фразы, карта адаптации, интервальное повторение.",
-    start_url: "/learn",
+      "Español Real | CristinaPerez — Разговорный испанский по авторскому учебнику: реальные фразы, карта адаптации, интервальное повторение",
+    start_url: "/",
     display: "standalone",
-    background_color: "#fff8f1",
-    theme_color: "#ff5a3c",
+    background_color: "#ffffff",
+    theme_color: "#ff8c00",
     lang: "ru",
     categories: ["education", "productivity"],
     icons: [
-      { src: "/icon.svg", sizes: "any", type: "image/svg+xml", purpose: "any" },
-      { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
-      { src: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      {
+        src: "/icon.png",
+        sizes: "192x192",
+        type: "image/png",
+        purpose: "any maskable",
+      },
+      {
+        src: "/icon.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "any maskable",
+      },
     ],
   };
 }

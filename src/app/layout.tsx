@@ -44,15 +44,15 @@ export const metadata: Metadata = {
     description: "Мастерство реальных фраз вместо заучивания грамматики. 45 уроков.",
   },
   robots: { index: true, follow: true },
-  icons: { icon: [{ url: "/icon.svg", type: "image/svg+xml" }], apple: "/icon.svg" },
+  icons: {
+  icon: [{ url: "/icon.png", type: "image/png" }],
+  apple: "/icon.png",
+  },
   manifest: "/manifest.webmanifest",
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ff5a3c" },
-    { media: "(prefers-color-scheme: dark)", color: "#14100e" },
-  ],
+  themeColor: "#ff8c00",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
