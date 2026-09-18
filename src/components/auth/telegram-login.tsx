@@ -19,7 +19,7 @@ declare global {
  * redirect — the payment button appears immediately after login.
  */
 export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compact" }) {
-  const { botUsername, authenticating, error, user, logout, miniApp, loginWithWidgetData, refresh } = useAuth();
+  const { botUsername, authenticating, error, user, logout, miniApp, loginWithWidgetData } = useAuth();
   const containerRef = useRef<HTMLDivElement>(null);
   const [widgetError, setWidgetError] = useState<string | null>(null);
   const [hostname, setHostname] = useState<string | null>(null);
@@ -54,32 +54,11 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
       );
     container.appendChild(script);
 
-    // The Telegram widget can establish the server session even when its
-    // iframe callback is not delivered to the React page (for example after
-    // a browser/privacy change). Poll the session briefly while the widget
-    // is visible so React picks up the newly-created `er_session` cookie and
-    // immediately switches to the logged-in state.
-    let attempts = 0;
-    let timer: number | null = null;
-    const syncSession = async () => {
-      attempts += 1;
-      await refresh();
-      if (attempts >= 30) {
-        if (timer !== null) window.clearInterval(timer);
-        timer = null;
-      }
-    };
-    timer = window.setInterval(() => {
-      if (document.hidden) return;
-      void syncSession();
-    }, 1000);
-
     return () => {
       script.remove();
       delete window.onTelegramAuth;
-      if (timer !== null) window.clearInterval(timer);
     };
-  }, [botUsername, loginWithWidgetData, refresh, user, miniApp, variant]);
+  }, [botUsername, loginWithWidgetData, user, miniApp, variant]);
 
   if (user) {
     return (
@@ -141,7 +120,14 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
         </p>
       ) : null}
       {widgetError ? <p className="text-sm font-semibold text-danger">{widgetError}</p> : null}
-      {error ? <p className="text-sm font-semibold text-danger">{error}</p> : null}
+      {error ? (
+        <div className="rounded-2xl border border-danger/30 bg-danger/8 p-3">
+          <p className="text-sm font-semibold text-danger">{error}</p>
+          {error.includes("TELEGRAM_BOT_TOKEN") || error.includes("Подпись Telegram") ? (
+            <p className="mt-1 text-xs text-muted">На сервере токен должен принадлежать именно тому Telegram-боту, который указан в кнопке входа.</p>
+          ) : null}
+        </div>
+      ) : null}
       {variant === "full" ? (
         <>
           <p className="text-xs text-muted">

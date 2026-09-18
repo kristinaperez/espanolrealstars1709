@@ -22,8 +22,12 @@ export interface TelegramAuthUser {
 }
 
 export function getBotToken(): string | null {
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  return token && token.trim().length > 10 ? token.trim() : null;
+  const raw = process.env.TELEGRAM_BOT_TOKEN;
+  if (!raw) return null;
+  // Netlify/Vercel environment variables are sometimes pasted with quotes.
+  // Telegram tokens themselves never contain surrounding quotes.
+  const token = raw.trim().replace(/^(?:"|')|(?:"|')$/g, "").trim();
+  return token.length > 10 ? token : null;
 }
 
 export function getBotUsername(): string | null {
@@ -114,6 +118,65 @@ export function verifyTelegramAuth(
   }
 
   return user ? { user, authDate } : null;
+}
+
+export type TelegramAuthVerification =
+  | { ok: true; user: TelegramAuthUser; authDate: number }
+  | { ok: false; reason: "not_configured" | "missing_hash" | "bad_hash" | "bad_auth_date" | "expired" | "missing_user" };
+
+/** Same verification as verifyTelegramAuth, but exposes a safe diagnostic reason for the login API. */
+export function verifyTelegramAuthDetailed(entries: Record<string, string>): TelegramAuthVerification {
+  const token = getBotToken();
+  const hash = entries.hash;
+  if (!token) return { ok: false, reason: "not_configured" };
+  if (!hash) return { ok: false, reason: "missing_hash" };
+
+  const secret = createHash("sha256").update(token).digest();
+  const expected = createHmac("sha256", secret).update(dataCheckString(entries)).digest("hex");
+  if (!safeEqual(expected, hash)) return { ok: false, reason: "bad_hash" };
+
+  const authDate = Number(entries.auth_date ?? 0);
+  if (!Number.isFinite(authDate) || authDate <= 0) return { ok: false, reason: "bad_auth_date" };
+  const age = Math.floor(Date.now() / 1000) - authDate;
+  if (age > maxAuthAgeSeconds() || age < -300) return { ok: false, reason: "expired" };
+
+  let user: TelegramAuthUser | null = null;
+  if (entries.user) {
+    try {
+      const parsed = JSON.parse(entries.user) as Record<string, unknown>;
+      const id = Number(parsed.id);
+      if (Number.isFinite(id)) {
+        user = {
+          id,
+          firstName: typeof parsed.first_name === "string" ? parsed.first_name : undefined,
+          lastName: typeof parsed.last_name === "string" ? parsed.last_name : undefined,
+          username: typeof parsed.username === "string" ? parsed.username : undefined,
+          photoUrl: typeof parsed.photo_url === "string" ? parsed.photo_url : undefined,
+          languageCode: typeof parsed.language_code === "string" ? parsed.language_code : undefined,
+          isPremium: parsed.is_premium === true,
+        };
+      }
+    } catch {
+      user = null;
+    }
+  }
+
+  if (!user && entries.id) {
+    const id = Number(entries.id);
+    if (Number.isFinite(id)) {
+      user = {
+        id,
+        firstName: entries.first_name,
+        lastName: entries.last_name,
+        username: entries.username,
+        photoUrl: entries.photo_url,
+        languageCode: entries.language_code,
+        isPremium: entries.is_premium === "true",
+      };
+    }
+  }
+
+  return user ? { ok: true, user, authDate } : { ok: false, reason: "missing_user" };
 }
 
 /** Parses a Mini App `initData` query string into raw key/value pairs. */
