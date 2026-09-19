@@ -23,19 +23,33 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
   const containerRef = useRef<HTMLDivElement>(null);
   const [widgetError, setWidgetError] = useState<string | null>(null);
   const [hostname, setHostname] = useState<string | null>(null);
+  const [showWidget, setShowWidget] = useState(true);
 
   useEffect(() => {
     setHostname(window.location.hostname);
   }, []);
 
   useEffect(() => {
-    if (!botUsername || user || miniApp) return;
+    setShowWidget(!user && !miniApp);
+  }, [user, miniApp]);
+
+  useEffect(() => {
+    if (!botUsername || user || miniApp || !showWidget) return;
     const container = containerRef.current;
     if (!container) return;
-    if (container.querySelector("script")) return;
+    if (container.querySelector("script, iframe")) return;
 
     window.onTelegramAuth = (data) => {
-      void loginWithWidgetData(data);
+      void (async () => {
+        const ok = await loginWithWidgetData(data);
+        if (ok) {
+          // Telegram replaces the script node with its own iframe. Clear the
+          // whole mount point immediately so the old "Войти как…" button
+          // cannot remain visible during the React state update.
+          container.replaceChildren();
+          setShowWidget(false);
+        }
+      })();
     };
 
     const script = document.createElement("script");
@@ -56,9 +70,10 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
 
     return () => {
       script.remove();
+      container.replaceChildren();
       delete window.onTelegramAuth;
     };
-  }, [botUsername, loginWithWidgetData, user, miniApp, variant]);
+  }, [botUsername, loginWithWidgetData, user, miniApp, variant, showWidget]);
 
   if (user) {
     return (
@@ -113,7 +128,9 @@ export function TelegramLogin({ variant = "full" }: { variant?: "full" | "compac
 
   return (
     <div className={cn("flex flex-col gap-3", variant === "compact" && "gap-2")}>
-      <div ref={containerRef} className="flex min-h-[40px] items-center justify-center overflow-hidden" />
+      {showWidget ? (
+        <div ref={containerRef} className="flex min-h-[40px] items-center justify-center overflow-hidden" />
+      ) : null}
       {authenticating ? (
         <p className="flex items-center gap-2 text-sm font-semibold text-primary">
           <Star className="h-4 w-4 animate-flame" /> Подтверждаем данные Telegram…
